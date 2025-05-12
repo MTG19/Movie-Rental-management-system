@@ -1,5 +1,3 @@
-use [Movie rental];
-GO
 
 create table [user]
 (
@@ -21,11 +19,3 @@ CREATE TABLE Subscription (
     EndDate DATE
 );
 
-INSERT INTO [User] (UserID, Name, Email, Phone, CreditCardNumber)
-VALUES (1, 'Shosho', 'shosho@email.com', '0123456789', '4567123412341234');
-
-INSERT INTO Subscription (SubscriptionID, UserID, SubscribingDate, PrepaidMonths, EndDate)
-VALUES (1, 1, '2025-05-06', 3, '2025-08-06');
-
-select*from [user];
-select*from Subscription;
