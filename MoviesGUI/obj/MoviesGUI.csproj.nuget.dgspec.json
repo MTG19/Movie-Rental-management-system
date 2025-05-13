@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\GUI\\MoviesGUI\\MoviesGUI.csproj": {}
+    "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj": {}
   },
   "projects": {
-    "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\GUI\\MoviesGUI\\MoviesGUI.csproj": {
+    "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\GUI\\MoviesGUI\\MoviesGUI.csproj",
+        "projectUniqueName": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
         "projectName": "MoviesGUI",
-        "projectPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\GUI\\MoviesGUI\\MoviesGUI.csproj",
+        "projectPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
         "packagesPath": "C:\\Users\\israa\\.nuget\\packages\\",
-        "outputPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\GUI\\MoviesGUI\\obj\\",
+        "outputPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

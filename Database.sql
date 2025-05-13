@@ -1,0 +1,97 @@
+CREATE Database MovieRental
+use [MovieRental];
+GO
+
+CREATE TABLE Genre (
+    GenreID INT PRIMARY KEY,
+    GenreName VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Supplier (
+    SupplierID INT PRIMARY KEY,
+    SupplierName VARCHAR(100) NOT NULL,
+    Email VARCHAR(100),
+    Phone VARCHAR(20),
+    AddressID INT,
+    FOREIGN KEY (AddressID) REFERENCES Address(AddressID)
+);
+
+CREATE TABLE Actor (
+    ActorID INT PRIMARY KEY,
+    Name NVARCHAR(100),
+    BirthDate DATE
+);
+
+CREATE TABLE Movie (
+    MovieID INT PRIMARY KEY,
+    Title NVARCHAR(200),
+    SupplierID INT,
+    GenreID INT,
+    LeadActorID INT,
+    RentalPrice DECIMAL(10,2),
+    FOREIGN KEY (SupplierID) REFERENCES Supplier(SupplierID),
+    FOREIGN KEY (GenreID) REFERENCES Genre(GenreID),
+    FOREIGN KEY (LeadActorID) REFERENCES Actor(ActorID)
+);
+
+CREATE TABLE Users
+(
+
+UserID int,
+name varchar(50) not null,
+email varchar(50) not null,
+phone varchar(20) unique,
+Creditcardnumber varchar(20) unique,
+constraint user_pk primary key (UserID)
+
+);
+
+CREATE TABLE Subscription (
+    SubscriptionID INT PRIMARY KEY,
+    UserID INT,
+	FOREIGN KEY (UserID) REFERENCES Users(UserID),
+    SubscribingDate DATE,
+    PrepaidMonths INT,
+    EndDate DATE
+);
+
+CREATE TABLE rentingOrder (
+    RentalID INT PRIMARY KEY,
+    rentingDate DATE,
+    returnDate DATE,
+    UserID INT,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+CREATE TABLE payment(
+	PaymentNo int primary key,
+	RentalId int foreign key REFERENCES rentingOrder(RentalID),
+	amount DECIMAL(10, 2),
+	PaymentDate Date,
+	Method VARCHAR(MAX)
+);
+
+CREATE TABLE library (
+	tapeID int primary key,
+	movieID int foreign key REFERENCES movie(movieID)
+);
+
+
+
+CREATE TABLE rentingDetail (
+    RentalID INT,
+    TapeID INT,
+    rentingPrice DECIMAL,
+    PRIMARY KEY (RentalID, TapeID),
+    FOREIGN KEY (RentalID) REFERENCES rentingOrder(RentalID),
+    FOREIGN KEY (TapeID) REFERENCES Library(TapeID)
+);
+
+INSERT INTO [User] (UserID, Name, Email, Phone, CreditCardNumber)
+VALUES (1, 'Shosho', 'shosho@email.com', '0123456789', '4567123412341234');
+
+INSERT INTO Subscription (SubscriptionID, UserID, SubscribingDate, PrepaidMonths, EndDate)
+VALUES (1, 1, '2025-05-06', 3, '2025-08-06');
+
+select*from [user];
+select*from Subscription;
