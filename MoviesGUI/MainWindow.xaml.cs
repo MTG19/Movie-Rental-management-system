@@ -21,9 +21,16 @@ namespace MoviesGUI
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void btnSignIn_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void SignUpIN_Click(object sender, RoutedEventArgs e)
+        {
+            SignUpWindow signUpWindow = new SignUpWindow();
+            signUpWindow.Show();
+            this.Close();
         }
     }
 }

@@ -6,96 +6,37 @@
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
 
-        Title="MainWindow" Height="500" Width="777">
-    <Grid Background="#D9ECFF" Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <!-- Header -->
-            <RowDefinition Height="*"/>
-            <!-- Main Content -->
-            <RowDefinition Height="Auto"/>
-            <!-- Footer -->
-        </Grid.RowDefinitions>
+    Title="Sign In" Height="500" Width="777">
+    <Grid  Margin="10">
+        <TextBlock HorizontalAlignment="Left" Margin="69,55,0,0"
+                   TextWrapping="Wrap" Text="Sign In" FontSize="30" 
+                   FontWeight="Bold"  VerticalAlignment="Top"
+                   Height="52" Width="119"/>
+        <TextBlock HorizontalAlignment="Left" Margin="97,119,0,0"
+                     TextWrapping="Wrap" Text="Email" 
+                     VerticalAlignment="Top" Height="21" Width="119"/>
+        <TextBox HorizontalAlignment="Left" Margin="97,138,0,0"
+                    VerticalAlignment="Top" Width="260" Height="23"
+                    Name="txtEmail" />
 
-        <!-- 🧾 Movie Title Header -->
-        <TextBlock x:Name="txtMovieTitle"
-                   Text="Movie Title Here"
-                   FontSize="28"
-                   FontWeight="Bold"
-                   HorizontalAlignment="Center"
-                   Margin="0,10,0,20"
-                   Grid.Row="0"
-                   Foreground="#2B2D42"/>
+        <TextBlock HorizontalAlignment="Left" Margin="97,161,0,0"
+            TextWrapping="Wrap" Text="Password" 
+            VerticalAlignment="Top" Height="21" Width="119"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="97,179,0,0"
+                    VerticalAlignment="Top" Width="260" Height="23"
+                    Name="txtPassword"/>
+        <Button HorizontalAlignment="Left" Margin="97,212,0,0" Background="#D9ECFF"
+                VerticalAlignment="Top" Width="119" Height="36"
+                Name="btnSignIn" Content="Sign In" Click="btnSignIn_Click" Cursor="Hand"/>
 
-        <!-- 📑 Content Section -->
-        <Grid Margin="0,67,0,81" Grid.RowSpan="3">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <!-- 🎬 Left Column -->
-            <StackPanel Grid.Column="0" Margin="10,10,10,0" VerticalAlignment="Top" Height="329">
-
-                <!-- Movie Info -->
-                <GroupBox Header="Movie Information" FontWeight="Bold" Margin="0,0,0,10">
-                    <StackPanel>
-                        <TextBlock Text="Rental Price:" FontWeight="SemiBold" Margin="5,5,0,0"/>
-                        <TextBlock x:Name="txtRentalPrice" Text="$0.00" Margin="10,0"/>
-                    </StackPanel>
-                </GroupBox>
-
-                <!-- Genre -->
-                <GroupBox Header="Genre" FontWeight="Bold" Margin="0,0,0,10">
-                    <TextBlock x:Name="txtGenre" Text="Genre Name" Margin="10"/>
-                </GroupBox>
-
-                <!-- Actor + Acted in -->
-                <GroupBox Header="Actor Info" FontWeight="Bold" Margin="0,0,0,10" Height="156">
-                    <StackPanel>
-                        <TextBlock Text="Lead Actor:" FontWeight="SemiBold" Margin="5"/>
-                        <TextBlock x:Name="txtLeadActor" Text="Lead Actor Name" Margin="10,0"/>
-                        <TextBlock Text="Also Acted In:" FontWeight="SemiBold" Margin="5,10,5,5"/>
-                        <ListBox x:Name="lstActedIn" Height="50" Margin="10,0"/>
-                    </StackPanel>
-                </GroupBox>
-            </StackPanel>
-
-            <!-- 👤 Right Column -->
-            <StackPanel Grid.Column="1" Margin="10" VerticalAlignment="Top">
-                <GroupBox Header="Supplier Info" FontWeight="Bold" Margin="0,0,0,10">
-                    <StackPanel>
-                        <TextBlock Text="Supplier:" FontWeight="SemiBold" Margin="5"/>
-                        <TextBlock x:Name="txtSupplier" Text="Supplier Name" Margin="10,0"/>
-
-                        <TextBlock Text="Email:" FontWeight="SemiBold" Margin="5"/>
-                        <TextBlock x:Name="txtSupplierEmail" Text="supplier@example.com" Margin="10,0"/>
-
-                        <TextBlock Text="Phone:" FontWeight="SemiBold" Margin="5"/>
-                        <TextBlock x:Name="txtSupplierPhone" Text="+201000000000" Margin="10,0"/>
-                    </StackPanel>
-                </GroupBox>
-
-                <GroupBox Header="Address" FontWeight="Bold">
-                    <StackPanel>
-                        <TextBlock x:Name="txtSupplierAddress" Text="Street, City, PostalCode, Country" Margin="10"/>
-                    </StackPanel>
-                </GroupBox>
-            </StackPanel>
-        </Grid>
-
-        <!-- 🎬 Footer: Rent Button -->
-        <StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="10">
-            <Button x:Name="btnRent"
-                    Content="Rent Now"
-                    Width="150"
-                    Height="40"
-                    Background="#007ACC"
-                    Foreground="White"
-                    FontWeight="Bold"
-                    FontSize="16"
-                    Margin="0,20"/>
-        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="97,272,0,0"
+                   TextWrapping="Wrap" Text="Don't have an account?" 
+                   VerticalAlignment="Top" Height="52" Width="144"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" 
+                Margin="240,272,0,0" VerticalAlignment="Top" 
+                Background="White" BorderBrush="White" Name="SignUpIN" Click="SignUpIN_Click" Cursor="Hand"/> 
 
     </Grid>
+    
+    
 </Window>
