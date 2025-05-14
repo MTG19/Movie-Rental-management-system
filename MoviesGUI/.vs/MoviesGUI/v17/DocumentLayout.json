@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\moviesgui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:moviesgui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:40:16.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -38,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MoviesGUI.csproj",
               "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
               "RelativeDocumentMoniker": "MoviesGUI.csproj",
