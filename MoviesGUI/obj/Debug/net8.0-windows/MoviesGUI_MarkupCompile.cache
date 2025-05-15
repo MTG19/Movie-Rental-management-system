@@ -4,23 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
 MoviesGUI
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\App.xaml
-4-1110669405
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\App.xaml
+7603856460
 
-<<<<<<< HEAD
-6-450175881
+101283088432
 2151805821509
-MainWindow.xaml;MovieUserWindow.xaml;SignUpWindow.xaml;
-=======
-7408509546
-198-537775612
-MainWindow.xaml;MovieUserWindow.xaml;RentingDetails.xaml;SignUpWindow.xaml;
->>>>>>> bcccb9b669155a0e4d2db2b9c399e0699ea95f39
+MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;RentingDetails.xaml;SignUpWindow.xaml;
 
 False
 

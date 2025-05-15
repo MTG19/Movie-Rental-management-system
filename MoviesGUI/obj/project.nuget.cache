@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "Hh8m2Vx7E5M=",
   "success": true,
   "projectFilePath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
@@ -41,11 +40,12 @@
     "C:\\Users\\israa\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\israa\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-=======
-  "dgSpecHash": "pu3Dt7eCe+4=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
-  "expectedPackageFiles": [],
->>>>>>> bcccb9b669155a0e4d2db2b9c399e0699ea95f39
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
