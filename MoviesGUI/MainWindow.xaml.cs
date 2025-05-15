@@ -23,6 +23,9 @@ namespace MoviesGUI
 
         private void btnSignIn_Click(object sender, RoutedEventArgs e)
         {
+            MovieUserWindow MovieeUserWindow = new MovieUserWindow();
+            MovieeUserWindow.Show();
+            this.Close();
 
         }
 

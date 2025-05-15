@@ -5,7 +5,11 @@
     <Compile Update="MovieUserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="payementuser.xaml.cs">
+=======
+    <Compile Update="RentingDetails.xaml.cs">
+>>>>>>> 22c81953e7fc772034c86bdca5dce5d5f006092c
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SignUpWindow.xaml.cs">

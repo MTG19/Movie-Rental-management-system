@@ -26,6 +26,9 @@ namespace MoviesGUI
 
         private void btnRent_Click(object sender, RoutedEventArgs e)
         {
+            RentingDetails Renting_Details = new RentingDetails();
+            Renting_Details.Show();
+            this.Close();
 
         }
     }
