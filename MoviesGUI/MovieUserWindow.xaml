@@ -95,7 +95,7 @@
                 Foreground="White"
                 FontWeight="Bold"
                 FontSize="16"
-                Margin="0,20" Click="btnRent_Click"/>
+                Margin="0,20" Click="btnRent_Click" Cursor="Hand"/>
         </StackPanel>
 
     </Grid>
