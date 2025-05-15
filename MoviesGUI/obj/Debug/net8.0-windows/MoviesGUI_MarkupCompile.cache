@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
+C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
 MoviesGUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\App.xaml
-3935634366
+C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\App.xaml
+488055438
 
-6-450175881
+7-1657089537
 198-211836927
-MainWindow.xaml;MovieUserWindow.xaml;SignUpWindow.xaml;
+MainWindow.xaml;MovieUserWindow.xaml;payementuser.xaml;SignUpWindow.xaml;
 
 False
 
