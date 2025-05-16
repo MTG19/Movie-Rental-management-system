@@ -9,6 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ٍsupscriptionUser.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="ٍsupscriptionUser.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
   </ItemGroup>
 

@@ -90,7 +90,7 @@
 
                 <!-- Place Order Button -->
                 <Button Content="Place Order" Background="#10B981" Foreground="White" Width="150" Margin="0 10 0 0"
-                        HorizontalAlignment="Left" Click="PlaceOrder_Click"/>
+                        HorizontalAlignment="Left"/>
             </StackPanel>
         </Border>
 
