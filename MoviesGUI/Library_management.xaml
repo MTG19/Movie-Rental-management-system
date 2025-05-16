@@ -9,7 +9,7 @@
     <Grid Background="#FFD9ECFF" RenderTransformOrigin="0.499,0.031">
         <TextBlock x:Name="title" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Tape data" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
 
-        <DataGrid x:Name="tape_data" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="64,55,60,145" SelectionChanged="DataGrid_SelectionChanged" AutoGenerateColumns="False" RenderTransformOrigin="0.873,1.154" SelectionMode="Single" SelectedItem="{Binding SelectedTape}">
+        <DataGrid x:Name="tape_data" Margin="64,55,60,145" SelectionChanged="DataGrid_SelectionChanged" AutoGenerateColumns="False" RenderTransformOrigin="0.873,1.154" SelectionMode="Single">
 
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="tape_id" Header="TapeID" HeaderStringFormat="TapeID" IsReadOnly="True" SortDirection="Ascending" Width="*"/>
@@ -24,7 +24,7 @@
                 <Style/>
             </DataGrid.CellStyle>
         </DataGrid>
-        <Button x:Name="AddTape" Content="Add Tape" Margin="314,341,314,61" Background="#FF3B82F6" Click="Button_Click_1" FontWeight="Bold"/>
+        <Button x:Name="AddTape" Content="Add Tape" Margin="314,341,314,61" Background="#FF3B82F6" FontWeight="Bold"/>
 
     </Grid>
 </Window>

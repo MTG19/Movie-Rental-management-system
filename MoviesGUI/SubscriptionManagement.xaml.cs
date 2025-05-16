@@ -15,13 +15,20 @@ using System.Windows.Shapes;
 namespace MoviesGUI
 {
     /// <summary>
-    /// Interaction logic for Library_management.xaml
+    /// Interaction logic for SubsriptionManagement.xaml
     /// </summary>
-    public partial class Library_management : Window
+
+    public partial class SubsriptionManagement : Window
     {
-        public Library_management()
+        public SubsriptionManagement()
         {
             InitializeComponent();
         }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Your logic here
+        }
     }
+
 }

@@ -12,7 +12,7 @@
         <TextBlock x:Name="Start_Date" TextWrapping="Wrap" RenderTransformOrigin="2.739,-2.504" FontSize="18" Margin="22,154,0,255" HorizontalAlignment="Left" FontWeight="Bold"><Run Text="The start date"/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="Start_Date_Label" TextWrapping="Wrap" RenderTransformOrigin="2.739,-2.504" FontSize="18" Margin="19,126,0,283" HorizontalAlignment="Left"><Run Text="Subscription start Date: "/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="End_Date" TextWrapping="Wrap" RenderTransformOrigin="2.739,-2.504" FontSize="18" Margin="20,254,0,155" HorizontalAlignment="Left" FontWeight="Bold"><Run Text="The end date"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
-        <Button x:Name="Extend_subs_btn" Content="Extend your subscription" Margin="314,341,314,61" Background="#FF3B82F6" Click="Button_Click_3" FontWeight="Bold"/>
+        <Button x:Name="Extend_subs_btn" Content="Extend your subscription" Margin="314,341,314,61" Background="#FF3B82F6" FontWeight="Bold"/>
     </Grid>
 </Window>
 

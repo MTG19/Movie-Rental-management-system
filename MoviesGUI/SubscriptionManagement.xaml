@@ -9,7 +9,7 @@
     <Grid Background="#FFD9ECFF">
         <TextBlock x:Name="title" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"><Run Text="All Subscriptions Data"/><LineBreak/><Run/></TextBlock>
 
-        <DataGrid x:Name="Subscription_data" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="62,55,62,145" SelectionChanged="DataGrid_SelectionChanged" AutoGenerateColumns="False" RenderTransformOrigin="0.873,1.154" SelectionMode="Single" SelectedItem="{Binding SelectedTape}">
+        <DataGrid x:Name="Subscription_data" Margin="62,55,62,145" SelectionChanged="DataGrid_SelectionChanged" AutoGenerateColumns="False" RenderTransformOrigin="0.873,1.154" SelectionMode="Single" SelectedItem="{Binding SelectedTape}">
 
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="subscription_ID" Header="SubscriptionID" HeaderStringFormat="SubscriptionID" IsReadOnly="True" SortDirection="Ascending" Width="1.5*"/>
@@ -23,7 +23,7 @@
                 <Style/>
             </DataGrid.CellStyle>
         </DataGrid>
-        <Button x:Name="edit_subcription" Content="Edit Subscription" Margin="320,349,305,48" Background="#FF3B82F6" Click="Button_Click_4" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="edit_subcription" Content="Edit Subscription" Margin="320,349,305,48" Background="#FF3B82F6" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>
