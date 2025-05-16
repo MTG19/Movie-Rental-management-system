@@ -77,7 +77,7 @@ namespace MoviesGUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MoviesGUI;V1.0.0.0;component/rentingdetails.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MoviesGUI;component/rentingdetails.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RentingDetails.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

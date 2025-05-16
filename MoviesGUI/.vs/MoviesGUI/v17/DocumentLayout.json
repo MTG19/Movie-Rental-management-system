@@ -42,24 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieUserWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MovieUserWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MovieUserWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MovieUserWindow.xaml.cs",
-              "RelativeToolTip": "MovieUserWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:01:24.286Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,8 +58,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAkwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:57:07.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T13:57:07.243Z"
             },
             {
               "$type": "Document",
@@ -87,17 +73,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignUpWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml",
-              "RelativeDocumentMoniker": "SignUpWindow.xaml",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml",
-              "RelativeToolTip": "SignUpWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-15T13:56:19.819Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MovieUserWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MovieUserWindow.xaml",
@@ -107,6 +82,29 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-15T13:27:13.663Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieUserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MovieUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MovieUserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MovieUserWindow.xaml.cs",
+              "RelativeToolTip": "MovieUserWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:01:24.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignUpWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml",
+              "RelativeDocumentMoniker": "SignUpWindow.xaml",
+              "ToolTip": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml",
+              "RelativeToolTip": "SignUpWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T13:56:19.819Z"
             },
             {
               "$type": "Document",
