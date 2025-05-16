@@ -8,6 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace MoviesGUI
 {
@@ -21,12 +24,43 @@ namespace MoviesGUI
             InitializeComponent();
         }
 
+        string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
+
+
         private void btnSignIn_Click(object sender, RoutedEventArgs e)
         {
-            MovieUserWindow MovieeUserWindow = new MovieUserWindow();
-            MovieeUserWindow.Show();
-            this.Close();
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT * FROM Users WHERE Email = @Email AND Password = @Password";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
+                command.Parameters.AddWithValue("@Password", txtPassword.Password.Trim());
 
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    string role = reader["Role"].ToString();
+                    if (role == "admin")
+                    {
+                        AddMovieAdminWindow adminWindow = new AddMovieAdminWindow();
+                        adminWindow.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        profile userWindow = new profile();
+                        userWindow.Show();
+                        this.Close();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Invalid email or password.");
+
+                }
+
+            }
         }
 
         private void SignUpIN_Click(object sender, RoutedEventArgs e)
@@ -35,5 +69,6 @@ namespace MoviesGUI
             signUpWindow.Show();
             this.Close();
         }
+
     }
 }

@@ -19,11 +19,14 @@
                 <TextBlock Text="Full Name" />
                 <TextBox Name="txtfirstN" Margin="0,5,0,15" />
 
-                <TextBlock Text="Username" />
-                <TextBox Name="txtusername" Margin="0,5,0,15" />
-
                 <TextBlock Text="Email" />
                 <TextBox Name="txtemail" Margin="0,5,0,15" />
+
+                <TextBlock Text="Phone" />
+                <TextBox Name="txtphone" Margin="0,5,0,15" />
+
+                <TextBlock Text="Credit Card" />
+                <TextBox Name="txtcreditcard" Margin="0,5,0,15" />
 
                 <TextBlock Text="Password" />
                 <PasswordBox Name="txtPassword" Margin="0,5,0,15" />
@@ -31,11 +34,11 @@
                 <TextBlock Text="Confirm Password" />
                 <PasswordBox Name="txtconfpass" Margin="0,5,0,25" />
 
-                <Button Content="Sign Up" Width="100" Height="35" HorizontalAlignment="Center" Background="#D9ECFF" Click="btnSignIn_Click" Cursor="Hand" />
+                <Button Content="Sign Up" Width="100" Height="35" HorizontalAlignment="Center" Background="#D9ECFF" Click="btnSignUp_Click" Cursor="Hand" />
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
                     <TextBlock Text="Do have an account? " />
-                    <Button Content="Sign In" Background="Transparent" BorderBrush="Transparent" Foreground="Blue" Click="SIgnInUP_Click" Cursor="Hand" />
+                    <Button Content="Sign In" Background="Transparent" BorderBrush="Transparent" Foreground="Blue" Click="SIgnIn_Click" Cursor="Hand" />
                 </StackPanel>
             </StackPanel>
         </Grid>

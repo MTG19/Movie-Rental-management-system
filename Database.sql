@@ -7,6 +7,15 @@ CREATE TABLE Genre (
     GenreName VARCHAR(50) NOT NULL
 );
 
+CREATE TABLE Address (
+    AddressID INT PRIMARY KEY,
+    Street VARCHAR(255),
+    City VARCHAR(100),
+    PostalCode VARCHAR(20),
+    Country VARCHAR(100)
+);
+
+
 CREATE TABLE Supplier (
     SupplierID INT PRIMARY KEY,
     SupplierName VARCHAR(100) NOT NULL,
@@ -33,6 +42,15 @@ CREATE TABLE Movie (
     FOREIGN KEY (GenreID) REFERENCES Genre(GenreID),
     FOREIGN KEY (LeadActorID) REFERENCES Actor(ActorID)
 );
+
+CREATE TABLE Acted_in (
+    ActorID INT,
+    MovieID INT,
+    PRIMARY KEY (ActorID, MovieID),
+    FOREIGN KEY (ActorID) REFERENCES Actor(ActorID),
+    FOREIGN KEY (MovieID) REFERENCES Movie(MovieID)
+);
+
 
 CREATE TABLE Users
 (
@@ -87,11 +105,14 @@ CREATE TABLE rentingDetail (
     FOREIGN KEY (TapeID) REFERENCES Library(TapeID)
 );
 
-INSERT INTO [User] (UserID, Name, Email, Phone, CreditCardNumber)
+ALTER TABLE Users ADD Password VARCHAR(100) NOT NULL DEFAULT '1234';
+ALTER TABLE Users ADD Role VARCHAR(20) DEFAULT 'user';
+
+INSERT INTO [Users] (UserID, Name, Email, Phone, CreditCardNumber)
 VALUES (1, 'Shosho', 'shosho@email.com', '0123456789', '4567123412341234');
 
 INSERT INTO Subscription (SubscriptionID, UserID, SubscribingDate, PrepaidMonths, EndDate)
 VALUES (1, 1, '2025-05-06', 3, '2025-08-06');
 
-select*from [user];
+select*from [Users];
 select*from Subscription;

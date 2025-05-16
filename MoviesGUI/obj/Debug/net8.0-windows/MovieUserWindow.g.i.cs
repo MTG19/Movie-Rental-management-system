@@ -133,7 +133,7 @@ namespace MoviesGUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MoviesGUI;V1.0.0.0;component/movieuserwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MoviesGUI;component/movieuserwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MovieUserWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
