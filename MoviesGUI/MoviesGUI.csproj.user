@@ -2,12 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Edit_subscription.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Library_management.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="MovieUserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

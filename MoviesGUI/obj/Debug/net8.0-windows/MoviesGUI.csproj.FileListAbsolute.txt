@@ -191,3 +191,7 @@ C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\De
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\UsersData.g.cs
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\profile.baml
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\UsersData.baml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\profile.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\UsersData.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\profile.baml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\UsersData.baml
