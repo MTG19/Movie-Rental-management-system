@@ -6,56 +6,66 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
-        Title="RentingDetails" Height="600" Width="800">
+        Title="RentingDetails" Height="500" Width="777">
 
     <Grid Background="#E6F0FA" Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <!-- Renting Section -->
+
             <RowDefinition Height="Auto"/>
-            <!-- Buttons -->
-            <RowDefinition Height="Auto"/>
-            <!-- Payment Section -->
+            
         </Grid.RowDefinitions>
 
-        <!-- Renting Order Section -->
+        <!--GroupBox for the Renting Order Section-->
         <GroupBox Header="Renting Order" FontWeight="Bold" Margin="10" BorderBrush="#1E3A8A" Foreground="#1E3A8A">
             <Grid Margin="10">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Input -->
+                    <!--Form row-->
                     <RowDefinition Height="*"/>
-                    <!-- DataGrid -->
+                    <!--Table row-->
                     <RowDefinition Height="Auto"/>
-                    <!-- Total Movies -->
+                    <!--Total movies row-->
                 </Grid.RowDefinitions>
 
-                <!-- Input -->
+                <!--Input section for adding a movie-->
                 <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+
                     <TextBlock Text="Rent Date:" VerticalAlignment="Center" Margin="300 0 5 0"/>
                     <DatePicker x:Name="RentDatePicker" Width="120" SelectedDate="{x:Static sys:DateTime.Now}"/>
                 </StackPanel>
 
-                <!-- DataGrid -->
+                <!--DataGrid for showing the list of rented movies-->
                 <DataGrid x:Name="RentingOrderGrid" Grid.Row="1" AutoGenerateColumns="False" CanUserAddRows="False"
                           HeadersVisibility="Column" Margin="0 0 0 10" Background="White">
                     <DataGrid.Columns>
+                        <!--Movie Title Column-->
                         <DataGridTextColumn Header="Movie Title" Binding="{Binding MovieTitle}" Width="*"/>
+
+                        <!--Amount of copies-->
                         <DataGridTextColumn Header="Amount" Binding="{Binding Amount}" Width="80"/>
+
+                        <!--Rent Date Column-->
                         <DataGridTextColumn Header="Rent Date" Binding="{Binding RentDate, StringFormat=dd/MM/yyyy}" Width="120"/>
+
+                        <!--Return Date Column (1 month later by default)-->
                         <DataGridTextColumn Header="Return Date" Binding="{Binding ReturnDate, StringFormat=dd/MM/yyyy}" Width="120"/>
+
+                        <!--Price Column-->
                         <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="80"/>
+
+                        <!--Delete Button Column-->
                         <DataGridTemplateColumn Header="Delete" Width="80">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <Button Content="Delete" Background="#EF4444" Foreground="White" Width="60"/>
+                                    <Button Content="Delete" Background="#EF4444" Foreground="White" Width="60" />
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
                     </DataGrid.Columns>
                 </DataGrid>
 
-                <!-- Total Movies -->
+                <!--Total Movies Display-->
                 <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
                     <TextBlock Text="Total Movies: " FontWeight="Bold" VerticalAlignment="Center"/>
                     <TextBlock x:Name="TotalMoviesText" Text="0" FontWeight="Bold" Foreground="#1E3A8A" Margin="5 0"/>
@@ -63,36 +73,15 @@
             </Grid>
         </GroupBox>
 
-        <!-- Add and Cancel Buttons -->
+        <!--Bottom Buttons: Add Movie and Cancel All-->
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10">
-            <Button Content="Add Movie" Width="120" Background="#3B82F6" Foreground="White" Margin="5"/>
-            <Button Content="Cancel All" Width="120" Background="#9CA3AF" Foreground="White" Margin="5"/>
+            <!--Adds a new movie to the table-->
+            <Button Content="Add Movie" Width="120" Background="#3B82F6" Foreground="White" Margin="5"
+                    />
+
+            <!--Clears all movies from the table-->
+            <Button Content="Cancel All" Width="120" Background="#9CA3AF" Foreground="White" Margin="5"
+                    />
         </StackPanel>
-
-        <!-- Payment Section -->
-        <Border Grid.Row="2" BorderThickness="1" BorderBrush="#1E3A8A" Padding="10" Margin="10"
-                CornerRadius="5" Background="#F3F4F6">
-            <StackPanel>
-
-                <!-- Total Price -->
-                <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
-                    <TextBlock Text="Total Price:" FontWeight="Bold" FontSize="14" Width="120" VerticalAlignment="Center"/>
-                    <TextBlock x:Name="TotalPriceText" Text="$0.00" FontSize="14" Foreground="#1E3A8A" VerticalAlignment="Center"/>
-                </StackPanel>
-
-                <!-- Payment Method -->
-                <StackPanel>
-                    <TextBlock Text="Select Payment Method:" FontWeight="Bold" Margin="0 0 0 5"/>
-                    <RadioButton x:Name="CashRadio" Content="Cash" GroupName="PaymentMethod" IsChecked="True" Margin="0 2"/>
-                    <RadioButton x:Name="CardRadio" Content="Credit Card" GroupName="PaymentMethod" Margin="0 2"/>
-                    <RadioButton x:Name="OnlineRadio" Content="Online Payment" GroupName="PaymentMethod" Margin="0 2"/>
-                </StackPanel>
-
-                <!-- Place Order Button -->
-                <Button Content="Place Order" Background="#10B981" Foreground="White" Width="150" Margin="0 10 0 0"
-                        HorizontalAlignment="Left" Click="PlaceOrder_Click"/>
-            </StackPanel>
-        </Border>
-
     </Grid>
 </Window>
