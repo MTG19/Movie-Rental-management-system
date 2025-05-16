@@ -62,12 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -123,7 +119,7 @@
               "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml",
               "RelativeToolTip": "profile.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-15T23:29:28.126Z"
+              "WhenOpened": "2025-05-16T19:17:36.566Z"
             },
             {
               "$type": "Document",
@@ -147,7 +143,7 @@
               "RelativeToolTip": "MoviesGUI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-15T22:43:09.476Z"
+              "WhenOpened": "2025-05-16T19:17:36.571Z"
             },
             {
               "$type": "Document",

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\App.xaml
-91437231811
+13664593902
 
-12-1822059550
+161050140615
 2151479882824
-MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;profile.xaml;RentingDetails.xaml;SignUpWindow.xaml;UsersData.xaml;
+Edit_subscription.xaml;Library_management.xaml;MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;profile.xaml;RentingDetails.xaml;SignUpWindow.xaml;SubscriptionManagement.xaml;UsersData.xaml;User_Subscription.xaml;
 
 False
 
