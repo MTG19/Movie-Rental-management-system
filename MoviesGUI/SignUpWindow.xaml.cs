@@ -35,5 +35,17 @@ namespace MoviesGUI
         {
 
         }
+        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
+{
+            // Hide image if width is less than 600px
+            if (this.ActualWidth < 600)
+            {
+                ImagePanel.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                ImagePanel.Visibility = Visibility.Visible;
+            }
+        }
     }
 }

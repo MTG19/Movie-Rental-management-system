@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
 MoviesGUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\App.xaml
-7603856460
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\App.xaml
+91437231811
 
-12-185811672
-198-537775612
-MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;RentingDetails.xaml;SignUpWindow.xaml;
+141004007642
+2151479882824
+MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;profile.xaml;RentingDetails.xaml;SignUpWindow.xaml;UsersData.xaml;
 
-False
+True
 
