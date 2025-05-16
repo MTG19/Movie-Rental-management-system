@@ -100,7 +100,7 @@ namespace MoviesGUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MoviesGUI;V1.0.0.0;component/signupwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MoviesGUI;component/signupwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SignUpWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
 MoviesGUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\App.xaml
-7603856460
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\App.xaml
+91437231811
 
-101283088432
-2151805821509
-MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;RentingDetails.xaml;SignUpWindow.xaml;
+12-1822059550
+2151399131614
+MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;profile.xaml;RentingDetails.xaml;SignUpWindow.xaml;UsersData.xaml;
 
 False
 
