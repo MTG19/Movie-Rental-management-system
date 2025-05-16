@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< HEAD
 FC:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\Edit_subscription.xaml;;
 FC:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\Library_management.xaml;;
 FC:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\MainWindow.xaml;;
@@ -8,4 +9,11 @@ FC:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\MovieUserW
 FC:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\RentingDetails.xaml;;
 FC:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\Subscription_Management.xaml;;
 FC:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\User_Subscription.xaml;;
+=======
+FP:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\MovieAdminViewWindow.xaml;;
+FP:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\MovieUserWindow.xaml;;
+FP:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\profile.xaml;;
+FP:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\RentingDetails.xaml;;
+FP:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\UsersData.xaml;;
+>>>>>>> b50ce9f7595620f3241dd6c737a774d009310f9c
 

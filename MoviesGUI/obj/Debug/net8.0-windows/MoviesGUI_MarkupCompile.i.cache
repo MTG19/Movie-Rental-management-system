@@ -9,12 +9,21 @@ MoviesGUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+<<<<<<< HEAD
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\App.xaml
 11-1788215839
 
 12-185811672
 215-208228992
 Edit_subscription.xaml;Library_management.xaml;MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;RentingDetails.xaml;SignUpWindow.xaml;Subscription_Management.xaml;User_Subscription.xaml;
+=======
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\App.xaml
+91437231811
 
-False
+141004007642
+2151479882824
+MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;profile.xaml;RentingDetails.xaml;SignUpWindow.xaml;UsersData.xaml;
+>>>>>>> b50ce9f7595620f3241dd6c737a774d009310f9c
+
+True
 
