@@ -1666,23 +1666,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\israa\\.nuget\\packages\\": {},
+    "C:\\Users\\moora\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+      "projectUniqueName": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
       "projectName": "MoviesGUI",
-      "projectPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
-      "packagesPath": "C:\\Users\\israa\\.nuget\\packages\\",
-      "outputPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
+      "projectPath": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+      "packagesPath": "C:\\Users\\moora\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\israa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\moora\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1742,13 +1742,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

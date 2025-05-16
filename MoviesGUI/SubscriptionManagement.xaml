@@ -1,0 +1,29 @@
+﻿<Window x:Class="MoviesGUI.SubsriptionManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoviesGUI"
+        mc:Ignorable="d"
+       Title="SubscriptionManagement" Height="450" Width="800">
+    <Grid Background="#FFD9ECFF">
+        <TextBlock x:Name="title" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"><Run Text="All Subscriptions Data"/><LineBreak/><Run/></TextBlock>
+
+        <DataGrid x:Name="Subscription_data" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="62,55,62,145" SelectionChanged="DataGrid_SelectionChanged" AutoGenerateColumns="False" RenderTransformOrigin="0.873,1.154" SelectionMode="Single" SelectedItem="{Binding SelectedTape}">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="subscription_ID" Header="SubscriptionID" HeaderStringFormat="SubscriptionID" IsReadOnly="True" SortDirection="Ascending" Width="1.5*"/>
+                <DataGridTextColumn x:Name="UserName" Header="UserName" HeaderStringFormat="UserName" MinWidth="40" SortDirection="Ascending" IsReadOnly="True" Width="2*"/>
+                <DataGridTextColumn x:Name="User_ID" Header="UserID" HeaderStringFormat="UserID" IsReadOnly="True" SortDirection="Ascending" Width="*"/>
+                <DataGridTextColumn x:Name="Start_Date" Header="StartDate" HeaderStringFormat="StartDate" IsReadOnly="True" SortDirection="Ascending" MinWidth="40" Width="2*"/>
+                <DataGridTextColumn x:Name="Prepaid_Months" Header="PrepaidMonths" HeaderStringFormat="PrepaidMonths" SortDirection="Ascending" IsReadOnly="True" Width="1.5*" MinWidth="30"/>
+                <DataGridTextColumn x:Name="EndDate" Header="EndDate" HeaderStringFormat="EndDate" SortDirection="Ascending" Width="2*"/>
+            </DataGrid.Columns>
+            <DataGrid.CellStyle>
+                <Style/>
+            </DataGrid.CellStyle>
+        </DataGrid>
+        <Button x:Name="edit_subcription" Content="Edit Subscription" Margin="320,349,305,48" Background="#FF3B82F6" Click="Button_Click_4" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
