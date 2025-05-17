@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\library_management.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:library_management.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +26,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\home\\onedrive\\desktop\\database\\movie-rental-management-system\\moviesgui\\rentingdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:rentingdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\home\\onedrive\\desktop\\database\\movie-rental-management-system\\moviesgui\\rentingdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:rentingdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +43,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,6 +60,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "Library_management.xaml.cs",
               "DocumentMoniker": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml.cs",
               "RelativeDocumentMoniker": "Library_management.xaml.cs",
@@ -67,11 +81,22 @@
               "RelativeToolTip": "Window1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-17T22:10:58.77Z",
+=======
+              "Title": "RentingDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\RentingDetails.xaml.cs",
+              "RelativeDocumentMoniker": "RentingDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\RentingDetails.xaml.cs",
+              "RelativeToolTip": "RentingDetails.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T21:53:54.785Z",
+>>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -116,8 +141,15 @@
               "RelativeDocumentMoniker": "MovieAdminAdd.xaml",
               "ToolTip": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\MovieAdminAdd.xaml",
               "RelativeToolTip": "MovieAdminAdd.xaml",
+=======
+              "Title": "RentingDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\RentingDetails.xaml",
+              "RelativeDocumentMoniker": "RentingDetails.xaml",
+              "ToolTip": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\RentingDetails.xaml",
+              "RelativeToolTip": "RentingDetails.xaml",
+>>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T18:31:59.07Z",
+              "WhenOpened": "2025-05-17T21:53:14.409Z",
               "EditorCaption": ""
             }
           ]
