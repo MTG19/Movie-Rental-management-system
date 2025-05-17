@@ -16,7 +16,7 @@ namespace MoviesGUI
 {
     public partial class MovieAdminEdit : Window
     {
-        public MovieAdminEdit()
+        public MovieAdminEdit(int movieId)
         {
             InitializeComponent();
         }
