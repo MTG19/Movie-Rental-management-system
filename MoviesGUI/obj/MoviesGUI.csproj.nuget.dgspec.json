@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj": {}
+    "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MoviesGUI.csproj": {}
   },
   "projects": {
-    "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj": {
+    "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MoviesGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+        "projectUniqueName": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MoviesGUI.csproj",
         "projectName": "MoviesGUI",
-        "projectPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
-        "packagesPath": "C:\\Users\\israa\\.nuget\\packages\\",
-        "outputPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
+        "projectPath": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MoviesGUI.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\israa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -66,12 +66,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.300, 9.0.300]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -80,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
