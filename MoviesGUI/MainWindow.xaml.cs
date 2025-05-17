@@ -49,7 +49,8 @@ namespace MoviesGUI
                     }
                     else
                     {
-                        profile userWindow = new profile();
+                        int id = (int) reader["UserID"];
+                        profile userWindow = new profile(id);
                         userWindow.Show();
                         this.Close();
                     }

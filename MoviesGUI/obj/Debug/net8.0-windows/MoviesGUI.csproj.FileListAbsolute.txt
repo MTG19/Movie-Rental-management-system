@@ -401,3 +401,9 @@ C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\De
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Library_management.baml
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\SubscriptionManagement.baml
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\User_Subscription.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditProfileWindow.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditProfileWindow.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.baml

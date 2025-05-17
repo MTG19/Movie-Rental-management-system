@@ -86,7 +86,7 @@ namespace MoviesGUI
         {
             if (tape_data.SelectedItem is Tape selected)
             {
-                var editWindow = new MovieAdminEdit(/*selected.MovieID*/) // maybe I should also send the tape Id  
+                var editWindow = new MovieAdminEdit(selected.MovieID) // maybe I should also send the tape Id  
                 {
                     Owner = this, // Makes management window the parent
                     WindowStartupLocation = WindowStartupLocation.CenterOwner // Centers over parent
