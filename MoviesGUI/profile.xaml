@@ -25,14 +25,12 @@
                     <TextBlock Text="Name:" Margin="0,0,0,10"/>
                     <TextBlock Text="Email:" Margin="0,0,0,10"/>
                     <TextBlock Text="Phone:" Margin="0,0,0,10"/>
-                    <TextBlock Text="Address:"/>
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" VerticalAlignment="Top">
-                    <TextBlock Text="{Binding Name}" Margin="0,0,0,10"/>
-                    <TextBlock Text="{Binding Email}" Margin="0,0,0,10"/>
-                    <TextBlock Text="{Binding Phone}" Margin="0,0,0,10"/>
-                    <TextBlock Text="{Binding Address}"/>
+                    <TextBlock x:Name="txtName" Margin="0,0,0,10"/>
+                    <TextBlock x:Name="txtEmail" Margin="0,0,0,10"/>
+                    <TextBlock x:Name="txtPhone"/>
                 </StackPanel>
             </Grid>
         </GroupBox>
@@ -52,16 +50,16 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" VerticalAlignment="Top">
-                    <TextBlock Text="{Binding SubscribingDate}" Margin="0,0,0,10"/>
-                    <TextBlock Text="{Binding EndDate}" Margin="0,0,0,10"/>
-                    <TextBlock Text="{Binding PrepaidMonths}"/>
+                    <TextBlock x:Name="txtSubDate" Margin="0,0,0,10"/>
+                    <TextBlock x:Name="txtEndDate" Margin="0,0,0,10"/>
+                    <TextBlock x:Name="txtMonths"/>
                 </StackPanel>
             </Grid>
         </GroupBox>
 
         <!-- Rented Movies -->
         <GroupBox Header="Rented Movies" Grid.Row="2" FontWeight="Bold" Padding="10">
-            <ListView ItemsSource="{Binding RentedMovies}">
+            <ListView x:Name="lstMovies">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" Width="200"/>
