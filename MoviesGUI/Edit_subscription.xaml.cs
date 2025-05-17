@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.Data.SqlClient;
+
 
 namespace MoviesGUI
 {
@@ -19,9 +21,21 @@ namespace MoviesGUI
     /// </summary>
     public partial class Edit_subscription : Window
     {
-        public Edit_subscription()
+        Subscription new_curr_subscription { get; set; }
+        public Edit_subscription(Subscription s)
         {
+            Subscription_ID.Text = s.SubscriptionID.ToString();
+
+            new_curr_subscription = s;
+
             InitializeComponent();
+            DataContext = this;
+        }
+
+
+
+        public void edit_current_subscription(Subscription s) {
+            
         }
     }
 }
