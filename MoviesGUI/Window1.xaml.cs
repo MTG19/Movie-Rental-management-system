@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace MoviesGUI
 {
     /// <summary>
-    /// Interaction logic for RentingDetails.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class RentingDetails : Window
+    public partial class Window1 : Window
     {
-        public RentingDetails(int movieId)
-
+        public Window1()
         {
             InitializeComponent();
-        }
-
-        private void MovieTitleBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }

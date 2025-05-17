@@ -65,7 +65,7 @@
 
                 <GroupBox Header="Address" FontWeight="Bold">
                     <StackPanel>
-                        <TextBox x:Name="txtAddressStreet" Margin="10" Text="Street" Foreground="Gray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
+                        <TextBox x:Name="txtAddressStreet" Margin="10" Text="Street" Foreground="Gray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" TextChanged="txtAddressStreet_TextChanged"/>
                         <TextBox x:Name="txtAddressCity" Margin="10" Text="City" Foreground="Gray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
                         <TextBox x:Name="txtAddressPostal" Margin="10" Text="Postal Code" Foreground="Gray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
                         <TextBox x:Name="txtAddressCountry" Margin="10" Text="Country" Foreground="Gray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>

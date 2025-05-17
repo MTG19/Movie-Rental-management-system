@@ -12,8 +12,13 @@
       }
     ],
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\moora\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\moora\\.nuget\\packages",
+=======
+      "C:\\Users\\asus\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\asus\\.nuget\\packages",
+>>>>>>> 42caa1451416cfc81315a800ae79d62e977f9816
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

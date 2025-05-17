@@ -26,7 +26,6 @@ namespace MoviesGUI
 
         string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
 
-
         private void btnSignIn_Click(object sender, RoutedEventArgs e)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -41,6 +40,8 @@ namespace MoviesGUI
                 if (reader.Read())
                 {
                     string role = reader["Role"].ToString();
+                    int userId = Convert.ToInt32(reader["UserID"]); 
+
                     if (role == "admin")
                     {
                         AddMovieAdminWindow adminWindow = new AddMovieAdminWindow();
@@ -49,7 +50,7 @@ namespace MoviesGUI
                     }
                     else
                     {
-                        profile userWindow = new profile();
+                        profile userWindow = new profile(userId); 
                         userWindow.Show();
                         this.Close();
                     }
@@ -57,9 +58,7 @@ namespace MoviesGUI
                 else
                 {
                     MessageBox.Show("Invalid email or password.");
-
                 }
-
             }
         }
 
@@ -69,6 +68,5 @@ namespace MoviesGUI
             signUpWindow.Show();
             this.Close();
         }
-
     }
 }

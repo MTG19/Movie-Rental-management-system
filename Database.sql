@@ -96,7 +96,6 @@ CREATE TABLE library (
 );
 
 
-
 CREATE TABLE rentingDetail (
     RentalID INT,
     TapeID INT,
@@ -109,8 +108,9 @@ CREATE TABLE rentingDetail (
 ALTER TABLE Users ADD Password VARCHAR(100) NOT NULL DEFAULT '1234';
 ALTER TABLE Users ADD Role VARCHAR(20) DEFAULT 'user';
 
-INSERT INTO [Users] (UserID, Name, Email, Phone, CreditCardNumber)
-VALUES (1, 'Shosho', 'shosho@email.com', '0123456789', '4567123412341234');
+INSERT INTO Users (Name, Email, Phone, CreditCardNumber, Password, Role)
+VALUES ('Admin Israa', 'israa@gmail.com', '01094415513', '4567123412341234', '12345', 'admin');
+
 
 INSERT INTO Subscription (SubscriptionID, UserID, SubscribingDate, PrepaidMonths, EndDate)
 VALUES (1, 1, '2025-05-06', 3, '2025-08-06');
