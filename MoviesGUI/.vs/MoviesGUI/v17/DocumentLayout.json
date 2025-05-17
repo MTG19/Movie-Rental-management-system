@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\movieuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\movieuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\rentingdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:rentingdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\movieuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\movieadminviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieadminviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\movieadminviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieadminviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,89 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAQwDUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:41:36.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MovieUserWindow.xaml.cs",
               "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieUserWindow.xaml.cs",
               "RelativeDocumentMoniker": "MovieUserWindow.xaml.cs",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieUserWindow.xaml.cs*",
-              "RelativeToolTip": "MovieUserWindow.xaml.cs*",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowCYAAAAQAAAAAAAAAA==",
+              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieUserWindow.xaml.cs",
+              "RelativeToolTip": "MovieUserWindow.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:52:25.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T15:41:31.78Z",
+              "WhenOpened": "2025-05-17T16:41:11.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SignUpWindow.xaml.cs",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\SignUpWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SignUpWindow.xaml.cs",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\SignUpWindow.xaml.cs",
-              "RelativeToolTip": "SignUpWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAABpAAAAAAAAAA==",
+              "Title": "MovieAdminViewWindow.xaml.cs",
+              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieAdminViewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MovieAdminViewWindow.xaml.cs",
+              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieAdminViewWindow.xaml.cs",
+              "RelativeToolTip": "MovieAdminViewWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T13:42:44.533Z",
+              "WhenOpened": "2025-05-17T16:36:23.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RentingDetails.xaml.cs",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\RentingDetails.xaml.cs",
-              "RelativeDocumentMoniker": "RentingDetails.xaml.cs",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\RentingDetails.xaml.cs",
-              "RelativeToolTip": "RentingDetails.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwDUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:23:40.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MovieUserWindow.xaml",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieUserWindow.xaml",
-              "RelativeDocumentMoniker": "MovieUserWindow.xaml",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieUserWindow.xaml",
-              "RelativeToolTip": "MovieUserWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T14:46:00.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MovieAdminViewWindow.xaml",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieAdminViewWindow.xaml",
-              "RelativeDocumentMoniker": "MovieAdminViewWindow.xaml",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieAdminViewWindow.xaml",
-              "RelativeToolTip": "MovieAdminViewWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T14:45:59.699Z",
+              "WhenOpened": "2025-05-17T15:41:36.79Z",
               "EditorCaption": ""
             }
           ]
