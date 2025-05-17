@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
 MoviesGUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\VSC projects\Movie_Rental\MoviesGUI\App.xaml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\App.xaml
 13664593902
 
 18-418759489
-215-915386072
+198-537775612
 Edit_subscription.xaml;Library_management.xaml;MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;MovieUserWindow.xaml;profile.xaml;RentingDetails.xaml;SignUpWindow.xaml;SubscriptionManagement.xaml;UsersData.xaml;User_Subscription.xaml;
 
 True
