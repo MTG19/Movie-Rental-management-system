@@ -5,26 +5,72 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
-        Title="Library_management" Height="450" Width="800">
-    <Grid Background="#FFD9ECFF" RenderTransformOrigin="0.499,0.031">
-        <TextBlock x:Name="title" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Tape data" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        Title="Library Management" Height="450" Width="800"
+        MinWidth="600" MinHeight="400" Background="#FFD9ECFF">
 
-        <DataGrid x:Name="tape_data" Margin="64,55,60,145" SelectionChanged="DataGrid_SelectionChanged" AutoGenerateColumns="False" RenderTransformOrigin="0.873,1.154" SelectionMode="Single">
+    <Grid Background="#FFD9ECFF" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <TextBlock x:Name="title"
+                   Text="Library"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,10,0,20"
+                   Grid.Row="0" />
+
+        <!-- DataGrid -->
+        <DataGrid x:Name="tape_data"
+                  Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  ItemsSource="{Binding Tapes}"
+                  SelectionChanged="DataGrid_SelectionChanged"
+                  SelectionMode="Single"
+                  IsReadOnly="True"
+                  CanUserAddRows="False"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch"
+                  >
 
             <DataGrid.Columns>
-                <DataGridTextColumn x:Name="tape_id" Header="TapeID" HeaderStringFormat="TapeID" IsReadOnly="True" SortDirection="Ascending" Width="*"/>
-                <DataGridTextColumn x:Name="MovieName" Header="MovieName" HeaderStringFormat="MovieName" MinWidth="40" SortDirection="Ascending" IsReadOnly="True" Width="2*"/>
-                <DataGridTextColumn x:Name="Movie_ID" Header="MovieID" HeaderStringFormat="Movie ID" IsReadOnly="True" SortDirection="Ascending" Width="*"/>
-                <DataGridTextColumn x:Name="rental_price" Header="RentalPrice" HeaderStringFormat="RentalPrice" SortDirection="Ascending" IsReadOnly="True" Width="*"/>
-                <DataGridTextColumn x:Name="LeadActorName" Header="LeadActor" HeaderStringFormat="LeadActor" IsReadOnly="True" SortDirection="Ascending" MinWidth="40" Width="2*"/>
-                <DataGridTextColumn x:Name="SupplierID" Header="SupplierID" HeaderStringFormat="SupplierID" SortDirection="Ascending" Width="*"/>
-                <DataGridTextColumn x:Name="SupplierName" Header="SupplierName" HeaderStringFormat="SupplierName" Width="2*" SortDirection="Ascending" MinWidth="40"/>
+                <DataGridTextColumn Header="TapeID" Binding="{Binding TapeID}" Width="*" />
+                <DataGridTextColumn Header="MovieName" Binding="{Binding MovieName}" Width="2*" />
+                <DataGridTextColumn Header="MovieID" Binding="{Binding MovieID}" Width="*" />
+                <DataGridTextColumn Header="RentalPrice" Binding="{Binding RentalPrice}" Width="*" />
+                <DataGridTextColumn Header="LeadActor" Binding="{Binding LeadActorName}" Width="2*" />
+                <DataGridTextColumn Header="SupplierID" Binding="{Binding SupplierID}" Width="*" />
+                <DataGridTextColumn Header="SupplierName" Binding="{Binding SupplierName}" Width="2*" />
             </DataGrid.Columns>
-            <DataGrid.CellStyle>
-                <Style/>
-            </DataGrid.CellStyle>
         </DataGrid>
-        <Button x:Name="AddTape" Content="Add Tape" Margin="314,341,314,61" Background="#FF3B82F6" FontWeight="Bold"/>
 
+        <!-- Buttons -->
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0,20,0,10">
+            <Button x:Name="AddTape"
+                    Content="Add Tape"
+                    Width="120"
+                    Height="35"
+                    Background="#FF3B82F6"
+                    Foreground="White"
+                    FontWeight="Bold" Click="AddTape_Click"/>
+
+            <Button x:Name="EditTape"
+                    Content="Edit Tape"
+                    Width="120"
+                    Height="35"
+                    Background="#FF3B82F6"
+                    Foreground="White"
+                    FontWeight="Bold" Margin="15,0,0,0"
+                    Click="EditTape_Click"
+                    IsEnabled="False"/>
+
+        </StackPanel>
     </Grid>
 </Window>

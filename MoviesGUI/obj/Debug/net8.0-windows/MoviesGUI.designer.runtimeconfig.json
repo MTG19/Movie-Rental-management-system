@@ -13,8 +13,13 @@
     ],
     "additionalProbingPaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
       "C:\\Users\\israa\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\LENOVO\\.nuget\\packages",
+=======
+      "C:\\Users\\moora\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\moora\\.nuget\\packages",
+>>>>>>> 3fed98dad742c30ff56ea55f0462c1893d90fbb8
 =======
       "C:\\Users\\asus\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\asus\\.nuget\\packages",

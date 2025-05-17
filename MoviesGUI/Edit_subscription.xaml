@@ -11,15 +11,25 @@
             <RowDefinition Height="137*"/>
             <RowDefinition Height="80*"/>
         </Grid.RowDefinitions>
+
         <TextBlock x:Name="title" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Height="39" Width="200"><Run Text="Edit Subscription"/><LineBreak/><Run/></TextBlock>
-        <Button x:Name="edit_subcription" Content="Save" Margin="195,70,430,53" Background="#FF3B82F6"  FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1"/>
-        <DatePicker x:Name="Start_Date" HorizontalAlignment="Left" Margin="419,139,0,0" VerticalAlignment="Top" FontSize="16" Width="136"/>
-        <DatePicker x:Name="End_Date" HorizontalAlignment="Left" Margin="420,188,0,0" VerticalAlignment="Top" FontSize="16" Width="136"/>
+        
+        <DatePicker x:Name="Start_Date" HorizontalAlignment="Left" Margin="419,139,0,0" 
+            VerticalAlignment="Top" FontSize="16" Width="136"
+            DisplayDateStart="2000-01-01" 
+            xmlns:sys="clr-namespace:System;assembly=mscorlib"
+            DisplayDateEnd="{x:Static sys:DateTime.Now}"/> <!--can't have the start date in the future-->
+        
+        <DatePicker x:Name="End_Date" HorizontalAlignment="Left" Margin="420,188,0,0" 
+            VerticalAlignment="Top" FontSize="16" Width="136"/>
+        
         <TextBlock x:Name="Start_Date_Label" HorizontalAlignment="Left" Margin="308,142,0,0" TextWrapping="Wrap" Text="Start Date" VerticalAlignment="Top" FontSize="16" Width="77"/>
         <TextBlock x:Name="End_Date_Label" HorizontalAlignment="Left" Margin="314,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="66" Height="28" RenderTransformOrigin="0.697,0.466"><Run Text="End Date"/><LineBreak/><Run/></TextBlock>
-        <Button x:Name="Cancel_btn" Content="Cancel" Margin="430,70,195,53" Background="#FF3B82F6" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1"/>
-        <TextBlock x:Name="Subscription_ID_Label" HorizontalAlignment="Left" Margin="269,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="111" RenderTransformOrigin="0.493,1.246" Text="Subscription ID"/>
         <TextBlock x:Name="Subscription_ID" HorizontalAlignment="Left" Margin="420,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="155" RenderTransformOrigin="0.493,1.246" Text="The Subscription ID" FontWeight="Bold"/>
+        <TextBlock x:Name="Subscription_ID_Label" HorizontalAlignment="Left" Margin="269,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="111" RenderTransformOrigin="0.493,1.246" Text="Subscription ID"/>
+        
+        <Button x:Name="edit_subcription" Content="Save" Margin="195,70,430,53" Background="#FF3B82F6"  FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1"/>
+        <Button x:Name="Cancel_btn" Content="Cancel" Margin="430,70,195,53" Background="#FF3B82F6" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1"/>
 
     </Grid>
 </Window>
