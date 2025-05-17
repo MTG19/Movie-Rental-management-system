@@ -19,7 +19,8 @@ namespace MoviesGUI
     /// </summary>
     public partial class RentingDetails : Window
     {
-        public RentingDetails()
+        public RentingDetails(int movieId)
+
         {
             InitializeComponent();
         }
