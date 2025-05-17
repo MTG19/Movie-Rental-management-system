@@ -1,8 +1,23 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\subscriptionmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:subscriptionmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\user_subscription.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:user_subscription.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\library_management.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:library_management.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\edit_subscription.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:edit_subscription.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\library_management.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:library_management.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
@@ -10,37 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\library_management.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:library_management.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\moora\\source\\repos\\movie-rental-management-system\\moviesgui\\subscriptionmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:subscriptionmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-  "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\usersdata.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:usersdata.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 42caa1451416cfc81315a800ae79d62e977f9816
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
           "SelectedChildIndex": 4,
-=======
-          "SelectedChildIndex": 5,
->>>>>>> 42caa1451416cfc81315a800ae79d62e977f9816
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,71 +46,59 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
+              "DocumentIndex": 1,
+              "Title": "User_Subscription.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\User_Subscription.xaml.cs",
+              "RelativeDocumentMoniker": "User_Subscription.xaml.cs",
+              "ToolTip": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\User_Subscription.xaml.cs",
+              "RelativeToolTip": "User_Subscription.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T21:05:59.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Edit_subscription.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\Edit_subscription.xaml.cs",
+              "RelativeDocumentMoniker": "Edit_subscription.xaml.cs",
+              "ToolTip": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\Edit_subscription.xaml.cs",
+              "RelativeToolTip": "Edit_subscription.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T21:05:47.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SubscriptionManagement.xaml.cs",
               "DocumentMoniker": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\SubscriptionManagement.xaml.cs",
               "RelativeDocumentMoniker": "SubscriptionManagement.xaml.cs",
               "ToolTip": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\SubscriptionManagement.xaml.cs",
               "RelativeToolTip": "SubscriptionManagement.xaml.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAcwFIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T20:26:24.999Z",
-=======
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "MainWindow.xaml.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDQAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:11:28.309Z",
->>>>>>> 42caa1451416cfc81315a800ae79d62e977f9816
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Library_management.xaml.cs",
               "DocumentMoniker": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml.cs",
               "RelativeDocumentMoniker": "Library_management.xaml.cs",
               "ToolTip": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml.cs",
               "RelativeToolTip": "Library_management.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwFgAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAFgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T20:14:45.397Z",
-=======
-              "DocumentIndex": 3,
-              "Title": "SignUpWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SignUpWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml.cs",
-              "RelativeToolTip": "SignUpWindow.xaml.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:10:53.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UsersData.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\UsersData.xaml.cs",
-              "RelativeDocumentMoniker": "UsersData.xaml.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\UsersData.xaml.cs",
-              "RelativeToolTip": "UsersData.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:00:16.712Z",
->>>>>>> 42caa1451416cfc81315a800ae79d62e977f9816
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-<<<<<<< HEAD
               "Title": "Library_management.xaml",
               "DocumentMoniker": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml",
               "RelativeDocumentMoniker": "Library_management.xaml",
@@ -138,39 +106,18 @@
               "RelativeToolTip": "Library_management.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-17T20:06:09.332Z",
-=======
-              "Title": "profile.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml.cs",
-              "RelativeDocumentMoniker": "profile.xaml.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml.cs",
-              "RelativeToolTip": "profile.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T19:59:50.268Z",
->>>>>>> 42caa1451416cfc81315a800ae79d62e977f9816
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< HEAD
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
               "ToolTip": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T03:13:50.473Z",
-=======
-              "Title": "profile.xaml",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml",
-              "RelativeDocumentMoniker": "profile.xaml",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml",
-              "RelativeToolTip": "profile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T19:58:14.913Z",
->>>>>>> 42caa1451416cfc81315a800ae79d62e977f9816
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T03:13:50.473Z"
             }
           ]
         }
