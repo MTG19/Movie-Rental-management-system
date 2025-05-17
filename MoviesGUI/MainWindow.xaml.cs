@@ -68,6 +68,9 @@ namespace MoviesGUI
             SignUpWindow signUpWindow = new SignUpWindow();
             signUpWindow.Show();
             this.Close();
+            //MovieAdminViewWindow editWindow = new MovieAdminViewWindow(6);
+            //editWindow.Show();
+            //this.Close();
         }
 
     }

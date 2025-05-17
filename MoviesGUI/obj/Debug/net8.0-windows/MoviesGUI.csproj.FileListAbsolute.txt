@@ -393,3 +393,11 @@ D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\refint\MoviesGUI
 D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\MoviesGUI.pdb
 D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\MoviesGUI.genruntimeconfig.cache
 D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\ref\MoviesGUI.dll
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Edit_subscription.g.cs
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Library_management.g.cs
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\SubscriptionManagement.g.cs
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\User_Subscription.g.cs
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Edit_subscription.baml
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Library_management.baml
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\SubscriptionManagement.baml
+C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\User_Subscription.baml

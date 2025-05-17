@@ -1,4 +1,5 @@
 CREATE Database MovieRental
+
 use [MovieRental];
 GO
 

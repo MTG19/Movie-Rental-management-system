@@ -11,31 +11,17 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Microsoft.Data.SqlClient;
-
 
 namespace MoviesGUI
 {
     /// <summary>
-    /// Interaction logic for Edit_subscription.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Edit_subscription : Window
+    public partial class Window1 : Window
     {
-        Subscription new_curr_subscription { get; set; }
-        public Edit_subscription(Subscription s)
+        public Window1()
         {
-            Subscription_ID.Text = s.SubscriptionID.ToString();
-
-            new_curr_subscription = s;
-
             InitializeComponent();
-            DataContext = this;
-        }
-
-
-
-        public void edit_current_subscription(Subscription s) {
-            
         }
     }
 }
