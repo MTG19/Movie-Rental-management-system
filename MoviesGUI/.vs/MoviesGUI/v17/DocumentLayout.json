@@ -1,34 +1,26 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\",
+  "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\movieadminadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieadminadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\movieadminadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieadminadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-  "WorkspaceRootPath": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\movieuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|d:\\vsc projects\\movie_rental\\moviesgui\\movieadminviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieadminviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> fc838013760f9959bb76331ef0825f6c8386ac13
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\asus\\source\\repos\\mtg19\\movie-rental-management-system\\moviesgui\\usersdata.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:usersdata.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,87 +30,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignUpWindow.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SignUpWindow.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml.cs",
-              "RelativeToolTip": "SignUpWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:49:19.692Z",
-              "EditorCaption": ""
-=======
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
->>>>>>> fc838013760f9959bb76331ef0825f6c8386ac13
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< HEAD
-              "Title": "MovieAdminAdd.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MovieAdminAdd.xaml.cs",
-              "RelativeDocumentMoniker": "MovieAdminAdd.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MovieAdminAdd.xaml.cs",
-              "RelativeToolTip": "MovieAdminAdd.xaml.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAqwJMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:38:03.369Z",
-=======
-              "Title": "MovieUserWindow.xaml.cs",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieUserWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MovieUserWindow.xaml.cs",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieUserWindow.xaml.cs",
-              "RelativeToolTip": "MovieUserWindow.xaml.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:41:11.274Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MovieAdminViewWindow.xaml.cs",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieAdminViewWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MovieAdminViewWindow.xaml.cs",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MovieAdminViewWindow.xaml.cs",
-              "RelativeToolTip": "MovieAdminViewWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:36:23.694Z",
->>>>>>> fc838013760f9959bb76331ef0825f6c8386ac13
+              "WhenOpened": "2025-05-17T20:11:28.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUpWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SignUpWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\SignUpWindow.xaml.cs",
+              "RelativeToolTip": "SignUpWindow.xaml.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T20:10:53.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersData.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\UsersData.xaml.cs",
+              "RelativeDocumentMoniker": "UsersData.xaml.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\UsersData.xaml.cs",
+              "RelativeToolTip": "UsersData.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T20:00:16.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "MovieAdminAdd.xaml",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MovieAdminAdd.xaml",
-              "RelativeDocumentMoniker": "MovieAdminAdd.xaml",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MovieAdminAdd.xaml",
-              "RelativeToolTip": "MovieAdminAdd.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T14:27:14.038Z",
-=======
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\VSC projects\\Movie_Rental\\MoviesGUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAcwDUAAAAqAAAAAAAAAA==",
+              "Title": "profile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml.cs",
+              "RelativeDocumentMoniker": "profile.xaml.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml.cs",
+              "RelativeToolTip": "profile.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:41:36.79Z",
->>>>>>> fc838013760f9959bb76331ef0825f6c8386ac13
+              "WhenOpened": "2025-05-17T19:59:50.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "profile.xaml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml",
+              "RelativeDocumentMoniker": "profile.xaml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MTG19\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml",
+              "RelativeToolTip": "profile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T19:58:14.913Z",
               "EditorCaption": ""
             }
           ]
