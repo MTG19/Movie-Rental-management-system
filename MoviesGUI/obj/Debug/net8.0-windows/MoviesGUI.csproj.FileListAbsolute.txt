@@ -534,9 +534,18 @@ P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.g.cs
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.g.cs
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.g.cs
+<<<<<<< HEAD
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\ExtendSubscriptionDialog.baml
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.baml
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.baml
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\ExtendSubscriptionDialog.g.cs
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.g.cs
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.g.cs
+=======
+C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditProfileWindow.baml
+C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.baml
+C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditProfileWindow.g.cs
+C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.g.cs
+C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.g.cs
+C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.baml
+>>>>>>> ebec5177d37dfd09a9fdd5e65c274c3306dd7cd9

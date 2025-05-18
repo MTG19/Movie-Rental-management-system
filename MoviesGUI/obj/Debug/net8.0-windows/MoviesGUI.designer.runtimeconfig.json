@@ -12,8 +12,13 @@
       }
     ],
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\moora\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\moora\\.nuget\\packages",
+=======
+      "C:\\Users\\DELL\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\DELL\\.nuget\\packages",
+>>>>>>> ebec5177d37dfd09a9fdd5e65c274c3306dd7cd9
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

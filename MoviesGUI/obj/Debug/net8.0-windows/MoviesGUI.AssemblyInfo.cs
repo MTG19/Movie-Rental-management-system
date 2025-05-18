@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoviesGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f9fa16d042e88b68c350d9f3bdaed00558354d3")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdb4161f607b5d4357decf33abb51f73f5e343ee")]
+>>>>>>> ebec5177d37dfd09a9fdd5e65c274c3306dd7cd9
 [assembly: System.Reflection.AssemblyProductAttribute("MoviesGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoviesGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

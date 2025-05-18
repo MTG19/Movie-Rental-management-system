@@ -1666,23 +1666,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\moora\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+>>>>>>> ebec5177d37dfd09a9fdd5e65c274c3306dd7cd9
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
       "projectName": "MoviesGUI",
       "projectPath": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
       "packagesPath": "C:\\Users\\moora\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\Desktop\\database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+      "projectName": "MoviesGUI",
+      "projectPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\database\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
+>>>>>>> ebec5177d37dfd09a9fdd5e65c274c3306dd7cd9
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\moora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> ebec5177d37dfd09a9fdd5e65c274c3306dd7cd9
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

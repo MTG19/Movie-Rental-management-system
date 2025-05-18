@@ -63,4 +63,8 @@ namespace MoviesGUI
 
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ebec5177d37dfd09a9fdd5e65c274c3306dd7cd9
