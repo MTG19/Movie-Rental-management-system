@@ -1,58 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\",
+  "WorkspaceRootPath": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\home\\onedrive\\desktop\\database\\movie-rental-management-system\\moviesgui\\rentingdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:rentingdetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|c:\\users\\home\\onedrive\\desktop\\database\\movie-rental-management-system\\moviesgui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\moviesuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:moviesuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\moviesadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:moviesadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\subscriptionmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:subscriptionmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\moviesadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:moviesadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\edit_subscription.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:edit_subscription.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\edit_subscription.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:edit_subscription.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\extendsubscriptiondialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:extendsubscriptiondialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\library_management.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:library_management.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\movieadminadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:movieadminadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|p:\\sophomore_secterm\\database\\movie-rental-management-system\\moviesgui\\subscriptionmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:subscriptionmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,162 +18,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "profile.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml.cs",
-              "RelativeDocumentMoniker": "profile.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml.cs",
-              "RelativeToolTip": "profile.xaml.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAYwGwAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:09:32.938Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "moviesadmin.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\moviesadmin.xaml.cs",
-              "RelativeDocumentMoniker": "moviesadmin.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\moviesadmin.xaml.cs",
-              "RelativeToolTip": "moviesadmin.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:09:32.748Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "moviesuser.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\moviesuser.xaml.cs",
-              "RelativeDocumentMoniker": "moviesuser.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\moviesuser.xaml.cs",
-              "RelativeToolTip": "moviesuser.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:13:05.646Z",
+              "WhenOpened": "2025-05-18T17:52:31Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExtendSubscriptionDialog.xaml",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\ExtendSubscriptionDialog.xaml",
-              "RelativeDocumentMoniker": "ExtendSubscriptionDialog.xaml",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\ExtendSubscriptionDialog.xaml",
-              "RelativeToolTip": "ExtendSubscriptionDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T17:09:32.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwC4AAABEAAAAAAAAAA==",
+              "Title": "RentingDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\RentingDetails.xaml.cs",
+              "RelativeDocumentMoniker": "RentingDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\RentingDetails.xaml.cs*",
+              "RelativeToolTip": "RentingDetails.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:09:32.939Z",
+              "WhenOpened": "2025-05-18T17:52:15.459Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Library_management.xaml",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml",
-              "RelativeDocumentMoniker": "Library_management.xaml",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml",
-              "RelativeToolTip": "Library_management.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T17:09:32.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SubscriptionManagement.xaml",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\SubscriptionManagement.xaml",
-              "RelativeDocumentMoniker": "SubscriptionManagement.xaml",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\SubscriptionManagement.xaml",
-              "RelativeToolTip": "SubscriptionManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T17:09:32.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit_subscription.xaml",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Edit_subscription.xaml",
-              "RelativeDocumentMoniker": "Edit_subscription.xaml",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Edit_subscription.xaml",
-              "RelativeToolTip": "Edit_subscription.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T17:09:32.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "profile.xaml",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml",
-              "RelativeDocumentMoniker": "profile.xaml",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\profile.xaml",
-              "RelativeToolTip": "profile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T17:10:07.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit_subscription.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Edit_subscription.xaml.cs",
-              "RelativeDocumentMoniker": "Edit_subscription.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Edit_subscription.xaml.cs",
-              "RelativeToolTip": "Edit_subscription.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:09:32.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "moviesadmin.xaml",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\moviesadmin.xaml",
-              "RelativeDocumentMoniker": "moviesadmin.xaml",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\moviesadmin.xaml",
-              "RelativeToolTip": "moviesadmin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T17:09:32.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MovieAdminAdd.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MovieAdminAdd.xaml.cs",
-              "RelativeDocumentMoniker": "MovieAdminAdd.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MovieAdminAdd.xaml.cs",
-              "RelativeToolTip": "MovieAdminAdd.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:09:32.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SubscriptionManagement.xaml.cs",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\SubscriptionManagement.xaml.cs",
-              "RelativeDocumentMoniker": "SubscriptionManagement.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\SubscriptionManagement.xaml.cs",
-              "RelativeToolTip": "SubscriptionManagement.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:09:32.941Z"
             }
           ]
         }

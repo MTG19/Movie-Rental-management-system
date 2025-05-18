@@ -1,72 +1,121 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using System.Linq;
+using System.Data.SqlClient;
 using System.Windows;
 using System.Windows.Controls;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace MoviesGUI
 {
     public partial class RentingDetails : Window
     {
         public ObservableCollection<RentingOrderItem> RentOrders { get; set; }
+        private string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
+        private int initialMovieId;
 
         public RentingDetails(int movieId)
         {
             InitializeComponent();
+            initialMovieId = movieId;
+
             RentOrders = new ObservableCollection<RentingOrderItem>();
             RentingOrderGrid.ItemsSource = RentOrders;
-            UpdateTotals();
+
+            LoadMovieDetails(initialMovieId);
+        }
+
+        private void LoadMovieDetails(int movieId)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+
+                string query = "SELECT Title, RentalPrice FROM Movie WHERE MovieID = @MovieID";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@MovieID", movieId);
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        RentOrders.Add(new RentingOrderItem
+                        {
+                            MovieTitle = reader["Title"].ToString(),
+                            Amount = 1,
+                            RentDate = DateTime.Today,
+                            ReturnDate = DateTime.Today.AddDays(3),
+                            Price = Convert.ToDouble(reader["RentalPrice"])
+                        });
+
+                        UpdateSummary();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Movie not found.");
+                    }
+                }
+            }
+        }
+
+        private void UpdateSummary()
+        {
+            TotalMoviesText.Text = RentOrders.Count.ToString();
+
+            double totalPrice = 0;
+            foreach (var item in RentOrders)
+                totalPrice += item.Total;
+
+            TotalPriceText.Text = $"${totalPrice:F2}";
         }
 
         private void AddMovie_Click(object sender, RoutedEventArgs e)
         {
-            MoviesUser moviesuserWindow = new MoviesUser();
-            moviesuserWindow.Show();
-            this.Close(); 
+            LoadMovieDetails(initialMovieId); // Load the same movie again (for demo purposes)
         }
-
 
         private void CancelAll_Click(object sender, RoutedEventArgs e)
         {
             RentOrders.Clear();
-            UpdateTotals();
+            UpdateSummary();
         }
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             var button = sender as Button;
-            var item = button?.DataContext as RentingOrderItem;
-
-            if (item != null && RentOrders.Contains(item))
+            if (button?.DataContext is RentingOrderItem item)
             {
                 RentOrders.Remove(item);
-                UpdateTotals();
+                UpdateSummary();
             }
-        }
-
-        private void UpdateTotals()
-        {
-            TotalMoviesText.Text = RentOrders.Count.ToString();
-            double totalPrice = RentOrders.Sum(item => item.Price);
-            TotalPriceText.Text = $"${totalPrice:0.00}";
         }
 
         private void PlaceOrder_Click(object sender, RoutedEventArgs e)
         {
             if (RentOrders.Count == 0)
             {
-                MessageBox.Show("No movies in the renting order.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("No movies selected for rent.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            string paymentMethod = CashRadio.IsChecked == true ? "Cash" :
-                                   CardRadio.IsChecked == true ? "Credit Card" :
-                                   "Online Payment";
+            // Payment Method example
+            string method = CashRadio.IsChecked == true ? "Cash"
+                            : CardRadio.IsChecked == true ? "Credit Card"
+                            : "Online Payment";
 
-            MessageBox.Show($"Order placed successfully!\nPayment Method: {paymentMethod}", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-
-            RentOrders.Clear();
-            UpdateTotals();
+            MessageBox.Show($"Order placed successfully!\nPayment method: {method}", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            this.Close();
         }
     }
 
@@ -77,5 +126,6 @@ namespace MoviesGUI
         public DateTime RentDate { get; set; }
         public DateTime ReturnDate { get; set; }
         public double Price { get; set; }
+        public double Total => Amount * Price;
     }
 }
