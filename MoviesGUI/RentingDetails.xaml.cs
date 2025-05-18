@@ -20,21 +20,11 @@ namespace MoviesGUI
 
         private void AddMovie_Click(object sender, RoutedEventArgs e)
         {
-            DateTime rentDate = RentDatePicker.SelectedDate ?? DateTime.Now;
-            DateTime returnDate = rentDate.AddMonths(1);
-
-            var newItem = new RentingOrderItem
-            {
-                MovieTitle = $"Movie {RentOrders.Count + 1}",
-                Amount = 1,
-                RentDate = rentDate,
-                ReturnDate = returnDate,
-                Price = 5.00 * 1
-            };
-
-            RentOrders.Add(newItem);
-            UpdateTotals();
+            moviesuser moviesuserWindow = new moviesuser();
+            moviesuserWindow.Show();
+            this.Close(); 
         }
+
 
         private void CancelAll_Click(object sender, RoutedEventArgs e)
         {
