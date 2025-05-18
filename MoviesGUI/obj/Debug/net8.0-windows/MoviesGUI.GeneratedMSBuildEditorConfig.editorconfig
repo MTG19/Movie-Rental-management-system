@@ -8,7 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MoviesGUI
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\
+=======
 build_property.ProjectDir = P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\
+>>>>>>> 780a00cf4f3bddf03fbc7b712d5ac2cf12eb7067
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

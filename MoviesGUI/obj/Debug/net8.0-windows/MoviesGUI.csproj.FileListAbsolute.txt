@@ -613,5 +613,12 @@ P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.g.cs
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\OrderSummaryWindow.g.cs
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.baml
+<<<<<<< HEAD
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\RentalReport.baml
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\RentalReport.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.baml
+=======
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\RentalReport.baml
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\RentalReport.g.cs
+>>>>>>> 780a00cf4f3bddf03fbc7b712d5ac2cf12eb7067
