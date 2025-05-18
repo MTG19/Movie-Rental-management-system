@@ -1,6 +1,7 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\",
   "Documents": [
     {
@@ -43,6 +44,10 @@
 >>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\database\\Movie-Rental-management-system\\MoviesGUI\\",
+  "Documents": [],
+>>>>>>> a4b6671 (movies for admin and user& some other modifications)
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -51,11 +56,16 @@
         {
           "DockedWidth": 200,
 <<<<<<< HEAD
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": -1,
+>>>>>>> a4b6671 (movies for admin and user& some other modifications)
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+<<<<<<< HEAD
             },
             {
 =======
@@ -178,6 +188,8 @@
               "WhenOpened": "2025-05-17T18:31:59.07Z",
               "EditorCaption": ""
 >>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
+=======
+>>>>>>> a4b6671 (movies for admin and user& some other modifications)
             }
           ]
         }
