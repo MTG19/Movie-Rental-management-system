@@ -4,14 +4,15 @@ using System.Collections.ObjectModel;
 using System.Windows.Controls;
 using System.Windows;
 
-public partial class moviesadmin : Window
+public partial class MoviesAdmin : Window
 {
     private string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
 
-    public moviesadmin()
+    public MoviesAdmin()
     {
-        InitializeComponent();
+        
         LoadMoviesFromDatabase();
+
     }
 
     private void LoadMoviesFromDatabase()
@@ -41,6 +42,7 @@ public partial class moviesadmin : Window
             }
         }
 
+
         MoviesItemsControl.ItemsSource = movies;
     }
 
@@ -48,17 +50,18 @@ public partial class moviesadmin : Window
     {
         if (sender is Button button && button.DataContext is Movie movie)
         {
-            var detailsWindow = new MovieUserWindow(movie.MovieID);
+            MovieUserWindow detailsWindow = new MovieUserWindow(movie.MovieID);
             detailsWindow.ShowDialog();
         }
     }
 
     private void AddButton_Click(object sender, RoutedEventArgs e)
     {
-        var addMovieWindow = new MovieAdminAdd();
+        AddMovieAdminWindow addMovieWindow = new AddMovieAdminWindow();
         addMovieWindow.ShowDialog();
 
-        
+
+       
         LoadMoviesFromDatabase();
     }
 }

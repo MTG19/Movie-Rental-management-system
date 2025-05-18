@@ -20,7 +20,7 @@ namespace MoviesGUI
 
         private void AddMovie_Click(object sender, RoutedEventArgs e)
         {
-            moviesuser moviesuserWindow = new moviesuser();
+            MoviesUser moviesuserWindow = new MoviesUser();
             moviesuserWindow.Show();
             this.Close(); 
         }
