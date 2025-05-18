@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
         
         <!-- Navigation Button -->
-        <ContentControl x:Name="NavbarContainer" Height="50" Grid.Row="0" Margin="227,0,244,10"/>
+        <ContentControl x:Name="NavbarContainer" Height="80" Grid.Row="0" Margin="227,0,244,10"/>
 
         <!-- User Info -->
         <GroupBox Header="User Information" FontWeight="Bold" Padding="10" 

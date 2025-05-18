@@ -28,6 +28,10 @@ namespace MoviesGUI
         public RentingDetails(int movieId)
         {
             InitializeComponent();
+
+            NavbarUser nav = new NavbarUser();
+            NavbarContainer.Content = nav;
+
             initialMovieId = movieId;
 
             RentOrders = new ObservableCollection<RentingOrderItem>();

@@ -5,9 +5,11 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MoviesGUI"
              mc:Ignorable="d" 
-             Height="50" Background="LightGray">
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-        <Button Content="Profile" Margin="10" Click="Profile_Click"/>
-        <Button Content="Movies" Margin="10" Click="Movies_Click"/>
+             Height="70"  Background="white">
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+        <Button Content="Profile" Margin="15" Padding="7" BorderBrush="Blue" Click="Profile_Click" Background="AliceBlue"/>
+        <Image Source="Images/logo.png" Width="100" Height="70" Margin="1"/>
+        <Button Content="Movies" Margin="15"  Padding="7" BorderBrush="Blue" Click="Movies_Click" Background="AliceBlue"/>
+        
     </StackPanel>
 </UserControl>

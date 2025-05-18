@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
+using static MoviesGUI.UsersData;
 
 namespace MoviesGUI
 {
@@ -9,6 +10,9 @@ namespace MoviesGUI
         public OrderSummaryWindow(ObservableCollection<RentingOrderItem> rentOrders, string paymentMethod)
         {
             InitializeComponent();
+
+            NavbarUser nav = new NavbarUser();
+            NavbarContainer.Content = nav;
 
             SummaryGrid.ItemsSource = rentOrders;
             TotalMoviesText.Text = rentOrders.Count.ToString();
@@ -20,5 +24,8 @@ namespace MoviesGUI
         {
             this.Close();
         }
+
+        
+
     }
 }

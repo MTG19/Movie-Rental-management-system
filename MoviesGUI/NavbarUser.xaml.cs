@@ -22,10 +22,10 @@ namespace MoviesGUI
     {
         private int userId;
 
-        public NavbarUser(int id)
+        public NavbarUser()
         {
             InitializeComponent();
-            userId = id;
+            userId = Session.UserId;
         }
 
         private void Profile_Click(object sender, RoutedEventArgs e)

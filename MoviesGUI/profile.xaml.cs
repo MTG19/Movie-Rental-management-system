@@ -15,8 +15,9 @@ namespace MoviesGUI
         {
             InitializeComponent();
             this.userId = userId;
+            Session.UserId = userId; 
             LoadUserProfile();
-            NavbarUser navbar = new NavbarUser(userId);
+            NavbarUser navbar = new NavbarUser(); 
             NavbarContainer.Content = navbar;
         }
 

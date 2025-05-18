@@ -25,6 +25,8 @@ namespace MoviesGUI
         {
             InitializeComponent();
             LoadMoviesFromDatabase();
+            NavbarUser nav = new NavbarUser();
+            NavbarContainer.Content = nav;
         }
 
         private void LoadMoviesFromDatabase()

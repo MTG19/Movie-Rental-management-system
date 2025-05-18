@@ -34,6 +34,9 @@ namespace MoviesGUI
 
         private void LoadMovieData(int movieId)
         {
+            NavbarUser nav = new NavbarUser();
+            NavbarContainer.Content = nav;
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
