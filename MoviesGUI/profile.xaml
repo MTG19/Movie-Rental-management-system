@@ -15,9 +15,7 @@
         </Grid.RowDefinitions>
         
         <!-- Navigation Button -->
-        <Button Content="View Movies" Width="120" Height="30" Grid.Row="0" 
-                HorizontalAlignment="Left" Click="ViewMovies_Click" 
-                Margin="0,0,0,10" Cursor="Hand"/>
+        <ContentControl x:Name="NavbarContainer" Height="50" Grid.Row="0" Margin="227,0,244,10"/>
 
         <!-- User Info -->
         <GroupBox Header="User Information" FontWeight="Bold" Padding="10" 

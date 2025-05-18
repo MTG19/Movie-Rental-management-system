@@ -609,3 +609,7 @@ C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\UsersData.baml
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.baml
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\MoviesGUI.csproj.Up2Date
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\OrderSummaryWindow.baml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\OrderSummaryWindow.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.baml
