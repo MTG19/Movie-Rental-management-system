@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
         Title="Library Management" Height="450" Width="800"
-        MinWidth="600" MinHeight="400" Background="#FFD9ECFF">
+        MinWidth="600" MinHeight="400" Background="#FFD9ECFF" WindowState="Maximized">
 
     <Grid Background="#FFD9ECFF" Margin="20">
         <Grid.RowDefinitions>

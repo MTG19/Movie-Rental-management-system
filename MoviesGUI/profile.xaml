@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
-        Title="Profile" Height="592" Width="800" Background="#E6F0FA">
+        Title="Profile" Height="592" Width="800" Background="#E6F0FA"  WindowState="Maximized">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
