@@ -19,6 +19,7 @@ namespace MoviesGUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        int id;
         public MainWindow()
         {
             InitializeComponent();
@@ -66,9 +67,12 @@ namespace MoviesGUI
 
         private void SignUpIN_Click(object sender, RoutedEventArgs e)
         {
+
+
             SignUpWindow signUpWindow = new SignUpWindow();
             signUpWindow.Show();
             this.Close();
+
             //MovieAdminViewWindow editWindow = new MovieAdminViewWindow(6);
             //editWindow.Show();
             //this.Close();

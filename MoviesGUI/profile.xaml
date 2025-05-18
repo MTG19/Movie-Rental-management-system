@@ -10,18 +10,25 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button Content="View Movies" Width="120" Height="30" Grid.Row="0" HorizontalAlignment="Left" Click="ViewMovies_Click" Margin="0,0,0,10" Cursor="Hand"/>
+        
+        <!-- Navigation Button -->
+        <Button Content="View Movies" Width="120" Height="30" Grid.Row="0" 
+                HorizontalAlignment="Left" Click="ViewMovies_Click" 
+                Margin="0,0,0,10" Cursor="Hand"/>
+
         <!-- User Info -->
-        <GroupBox Header="User Information" FontWeight="Bold" Padding="10" Margin="0,10,0,342" Background="white" Grid.Row="2">
+        <GroupBox Header="User Information" FontWeight="Bold" Padding="10" 
+                 Grid.Row="1" Background="White" Margin="0,0,0,10">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="150"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,10,0" >
+                <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,10,0">
                     <TextBlock Text="Name:" Margin="0,0,0,10"/>
                     <TextBlock Text="Email:" Margin="0,0,0,10"/>
                     <TextBlock Text="Phone:" Margin="0,0,0,10"/>
@@ -36,11 +43,13 @@
         </GroupBox>
 
         <!-- Subscription Info -->
-        <GroupBox Header="Subscription Details" Grid.Row="1" FontWeight="Bold" Padding="10" Margin="0,179,0,0" Background="white" Grid.RowSpan="2" Height="117" VerticalAlignment="Top">
+        <GroupBox Header="Subscription Details" FontWeight="Bold" Padding="10" 
+                 Grid.Row="2" Background="White" Margin="0,0,0,10">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="200"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,10,0">
@@ -54,18 +63,23 @@
                     <TextBlock x:Name="txtEndDate" Margin="0,0,0,10"/>
                     <TextBlock x:Name="txtMonths"/>
                 </StackPanel>
+
+                <Button x:Name="ExtendButton" Grid.Column="2" Content="Extend" 
+                       Click="ExtendSubscription_Click"
+                       Background="#FF3B82F6" FontWeight="Bold"
+                       Width="120" Height="30" Margin="10,0,0,0"
+                       VerticalAlignment="Center"/>
             </Grid>
         </GroupBox>
 
         <!-- Rented Movies -->
-
-        <GroupBox Header="Rented Movies" Grid.Row="2" FontWeight="Bold" Padding="10" Margin="0,319,0,0">
-            <ListView ItemsSource="{Binding RentedMovies}" Height="170">
+        <GroupBox Header="Rented Movies" FontWeight="Bold" Padding="10" Grid.Row="3">
+            <ListView x:Name="lstMovies" Height="170">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" Width="200"/>
-                        <GridViewColumn Header="Rented Date" DisplayMemberBinding="{Binding RentedDate}" Width="120"/>
-                        <GridViewColumn Header="Return Date" DisplayMemberBinding="{Binding ReturnDate}" Width="120"/>
+                        <GridViewColumn Header="Rented Date" DisplayMemberBinding="{Binding RentedDate, StringFormat=d}" Width="120"/>
+                        <GridViewColumn Header="Return Date" DisplayMemberBinding="{Binding ReturnDate, StringFormat=d}" Width="120"/>
                     </GridView>
                 </ListView.View>
             </ListView>

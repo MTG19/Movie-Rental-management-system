@@ -1,0 +1,32 @@
+﻿<Window x:Class="MoviesGUI.ExtendSubscriptionDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Extend Subscription" Height="200" Width="300"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Extend Subscription" 
+                  FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBlock Text="Months to extend:" Margin="0,0,10,0" VerticalAlignment="Center"/>
+            <ComboBox x:Name="MonthsComboBox" Width="80" SelectedIndex="0">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="3"/>
+                <ComboBoxItem Content="6"/>
+                <ComboBoxItem Content="12"/>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="OK" Width="80" Margin="0,0,10,0" Click="OKButton_Click" IsDefault="True"/>
+            <Button Content="Cancel" Width="80" Click="CancelButton_Click" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

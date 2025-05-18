@@ -10,23 +10,37 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Top bar with Title and Add Button -->
-        <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Margin="0,20">
-            <TextBlock Text="Our Movies"
+        <!-- Top bar with Title in Center and Add Button on Right -->
+        <Grid Grid.Row="0" Margin="0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Title in center column -->
+            <TextBlock Grid.Column="1"
+                       Text="Our Movies"
                        FontSize="30"
                        FontWeight="Bold"
                        Foreground="#2B2D42"
-                       VerticalAlignment="Center" />
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center" />
 
+            <!-- Button in right column -->
+            <Button Grid.Column="2"
+                    Content="ADD"
+                    Height="40"
+                    Width="100"
+                    Background="#FF3B82F6"
+                    Foreground="White"
+                    Click="AddButton_Click"
+                    Cursor="Hand"
+                    HorizontalAlignment="Right"
+                    Margin="0,0,10,0"/>
+        </Grid>
 
-        </StackPanel>
-        <Button Content="ADD"
-        Height="50"
-        Margin="537,0,31,0"
-        VerticalAlignment="Center"
-        Background="#FF3B82F6"
-        Click="AddButton_Click"
-        Cursor="Hand" RenderTransformOrigin="1.609,0.906"/>
+        <!-- Movie List -->
         <GroupBox Grid.Row="1"
                   Header=""
                   Background="White"

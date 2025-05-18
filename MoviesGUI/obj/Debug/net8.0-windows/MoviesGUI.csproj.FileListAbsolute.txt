@@ -534,3 +534,9 @@ P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.g.cs
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.g.cs
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\ExtendSubscriptionDialog.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\ExtendSubscriptionDialog.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.g.cs
