@@ -62,19 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Library_management.xaml",
-              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml",
-              "RelativeDocumentMoniker": "Library_management.xaml",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml",
-              "RelativeToolTip": "Library_management.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T17:09:32.935Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -131,12 +120,23 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAcwC4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T17:09:32.939Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Library_management.xaml",
+              "DocumentMoniker": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml",
+              "RelativeDocumentMoniker": "Library_management.xaml",
+              "ToolTip": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\Library_management.xaml",
+              "RelativeToolTip": "Library_management.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T17:09:32.935Z"
             },
             {
               "$type": "Document",
