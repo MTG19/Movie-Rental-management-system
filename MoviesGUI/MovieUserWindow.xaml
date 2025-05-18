@@ -5,9 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
-        
-        
-        Title="MainWindow" Height="500" Width="777">
+        Title="MainWindow" Height="500" Width="777" WindowState="Maximized">
     <Grid Background="#D9ECFF" Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

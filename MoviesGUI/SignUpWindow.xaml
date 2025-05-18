@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Sign Up" Width="900" Height="600"
         WindowStartupLocation="CenterScreen"
-        SizeChanged="Window_SizeChanged">
+        SizeChanged="Window_SizeChanged" WindowState="Maximized">
 
     <Grid>
         <Grid.ColumnDefinitions>

@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\",
   "Documents": [
     {
@@ -79,10 +80,15 @@
       "RelativeMoniker": "D:0:0:{AA52A328-470F-468A-90ED-3CF8A1952AEC}|MoviesGUI.csproj|solutionrelative:subscriptionmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\",
+  "Documents": [],
+>>>>>>> 780a00cf4f3bddf03fbc7b712d5ac2cf12eb7067
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -323,6 +329,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> 780a00cf4f3bddf03fbc7b712d5ac2cf12eb7067
     }
   ]
 }

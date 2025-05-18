@@ -6,7 +6,7 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
-        Title="RentingDetails" Height="600" Width="800">
+        Title="RentingDetails" Height="600" Width="800" WindowState="Maximized">
 
     <Grid Background="#E6F0FA" Margin="10">
         <Grid.RowDefinitions>

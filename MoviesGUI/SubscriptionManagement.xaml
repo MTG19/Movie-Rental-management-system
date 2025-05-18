@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
         Title="Subscription Management" Height="450" Width="800"
-        Background="#FFD9ECFF">
+        Background="#FFD9ECFF" WindowState="Maximized">
 
     <Grid Margin="20">
         <Grid.RowDefinitions>
