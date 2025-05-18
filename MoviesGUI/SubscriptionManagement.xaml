@@ -55,17 +55,17 @@
                     Orientation="Horizontal"
                     HorizontalAlignment="Center"
                     Margin="0,20,0,10">
-                    
+
             <Button x:Name="edit_subscription_btn" Content="Edit Subscription" Background="#FF3B82F6" Foreground="White" 
                 FontWeight="Bold" Padding="10,6" Margin="0" 
                 HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" 
                 IsEnabled="False" Click="edit_subscription_btn_Click"/>
-                
-            <Button x:Name="remove_subscription_btn" Content="remove Subscription" Background="#FF3B82F6" Foreground="White"
+
+            <Button x:Name="remove_subscription_btn" Content="remove Subscription" Foreground="White"
                  FontWeight="Bold" Padding="10,6" Margin="10,0,0,0"
                   HorizontalAlignment="Center" VerticalAlignment="Center" Height="35"
-                  IsEnabled="False" Click="remove_subscription_btn_Click"/>
-                    <!-- IsEnabled="{Binding SelectedTape, Converter={StaticResource NullToBoolConverter}}" -->
+                  IsEnabled="False" Click="remove_subscription_btn_Click" Background="Red"/>
+            <!-- IsEnabled="{Binding SelectedTape, Converter={StaticResource NullToBoolConverter}}" -->
         </StackPanel>
     </Grid>
 </Window>
