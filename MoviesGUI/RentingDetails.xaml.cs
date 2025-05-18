@@ -17,6 +17,7 @@ using System.Data.SqlClient;
 using Microsoft.Data.SqlClient;
 using System.Text.RegularExpressions;
 
+
 namespace MoviesGUI
 {
     public partial class RentingDetails : Window
@@ -115,13 +116,37 @@ namespace MoviesGUI
                 return;
             }
 
-            // Payment Method example
+            // Payment Method
             string method = CashRadio.IsChecked == true ? "Cash"
                             : CardRadio.IsChecked == true ? "Credit Card"
                             : "Online Payment";
 
-            OrderSummaryWindow userWindow = new OrderSummaryWindow(RentOrders, method);
-            userWindow.Show();
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+
+                // Get the next available RentalID
+                SqlCommand getIdCmd = new SqlCommand("SELECT ISNULL(MAX(RentalID), 0) + 1 FROM rentingOrder", conn);
+                int nextRentalID = (int)getIdCmd.ExecuteScalar();
+
+                foreach (var item in RentOrders)
+                {
+                    string insertQuery = @"
+                        INSERT INTO rentingOrder (RentalID, rentingDate, returnDate, UserID)
+                        VALUES (@RentalID, @RentDate, @ReturnDate, @UserID)";
+
+                    SqlCommand cmd = new SqlCommand(insertQuery, conn);
+                    cmd.Parameters.AddWithValue("@RentalID", nextRentalID++);
+                    cmd.Parameters.AddWithValue("@RentDate", item.RentDate);
+                    cmd.Parameters.AddWithValue("@ReturnDate", item.ReturnDate);
+                    cmd.Parameters.AddWithValue("@UserID", 1); // Replace with actual user ID if needed
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+
+            OrderSummaryWindow summaryWindow = new OrderSummaryWindow(RentOrders, method);
+            summaryWindow.Show();
             this.Close();
         }
     }
