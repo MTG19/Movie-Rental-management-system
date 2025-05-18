@@ -82,7 +82,9 @@ namespace MoviesGUI
 
         private void AddMovie_Click(object sender, RoutedEventArgs e)
         {
-            LoadMovieDetails(initialMovieId); // Load the same movie again (for demo purposes)
+            MoviesUser userWindow = new MoviesUser();
+            userWindow.Show();
+            this.Close();
         }
 
         private void CancelAll_Click(object sender, RoutedEventArgs e)
@@ -114,7 +116,8 @@ namespace MoviesGUI
                             : CardRadio.IsChecked == true ? "Credit Card"
                             : "Online Payment";
 
-            MessageBox.Show($"Order placed successfully!\nPayment method: {method}", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+            OrderSummaryWindow userWindow = new OrderSummaryWindow(RentOrders, method);
+            userWindow.Show();
             this.Close();
         }
     }
