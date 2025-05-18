@@ -44,7 +44,7 @@ namespace MoviesGUI
                     string role = reader["Role"].ToString();
                     if (role == "admin")
                     {
-                        AddMovieAdminWindow adminWindow = new AddMovieAdminWindow();
+                        MoviesAdmin adminWindow = new MoviesAdmin();
                         adminWindow.Show();
                         this.Close();
                     }

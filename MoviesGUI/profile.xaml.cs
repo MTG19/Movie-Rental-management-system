@@ -10,7 +10,6 @@ namespace MoviesGUI
         string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
         private int userId;
         // Add this field to the profile class
-        private System.Windows.Controls.ListView lstMovies;
 
         public profile(int userId)
         {
@@ -105,8 +104,8 @@ namespace MoviesGUI
         private void ViewMovies_Click(object sender, RoutedEventArgs e)
         {
             // Open the moviesadmin window
-            MoviesAdmin adminWindow = new MoviesAdmin();
-            adminWindow.Show();
+            MoviesUser userWindow = new MoviesUser();
+            userWindow.Show();
             this.Close(); // Optional: Close profile window if you want
 
         }
