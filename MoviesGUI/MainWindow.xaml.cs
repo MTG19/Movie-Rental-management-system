@@ -19,6 +19,7 @@ namespace MoviesGUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        int id;
         public MainWindow()
         {
             InitializeComponent();
@@ -43,7 +44,7 @@ namespace MoviesGUI
                     string role = reader["Role"].ToString();
                     if (role == "admin")
                     {
-                        AddMovieAdminWindow adminWindow = new AddMovieAdminWindow();
+                        MoviesAdmin adminWindow = new MoviesAdmin();
                         adminWindow.Show();
                         this.Close();
                     }
@@ -66,9 +67,12 @@ namespace MoviesGUI
 
         private void SignUpIN_Click(object sender, RoutedEventArgs e)
         {
+
+
             SignUpWindow signUpWindow = new SignUpWindow();
             signUpWindow.Show();
             this.Close();
+
             //MovieAdminViewWindow editWindow = new MovieAdminViewWindow(6);
             //editWindow.Show();
             //this.Close();
