@@ -1666,39 +1666,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\moora\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\Home\\.nuget\\packages\\": {},
->>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+      "projectUniqueName": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
       "projectName": "MoviesGUI",
-      "projectPath": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+      "projectPath": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
       "packagesPath": "C:\\Users\\moora\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
-      "projectName": "MoviesGUI",
-      "projectPath": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
-      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
->>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
+      "outputPath": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\moora\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1758,17 +1742,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-<<<<<<< HEAD
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\moora\\Source\\Repos\\Movie-Rental-management-system\\MoviesGUI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
-=======
   }
->>>>>>> d4b0fd74c5b1e074552ed5d84b5ed974f1466379
 }
