@@ -615,3 +615,12 @@ P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.baml
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\RentalReport.baml
 P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\RentalReport.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\OrderSummaryWindow.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\RentalReport.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarAdmin.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\OrderSummaryWindow.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\RentalReport.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarAdmin.baml
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarUser.baml

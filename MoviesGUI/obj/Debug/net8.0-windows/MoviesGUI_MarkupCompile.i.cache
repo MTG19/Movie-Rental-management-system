@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\
 MoviesGUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\App.xaml
-201061701032
+C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\App.xaml
+211526706949
 
-251953207277
-2151479882824
-EditProfileWindow.xaml;EditUser.xaml;Edit_subscription.xaml;ExtendSubscriptionDialog.xaml;Library_management.xaml;MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;moviesadmin.xaml;moviesuser.xaml;MovieUserWindow.xaml;NavbarUser.xaml;OrderSummaryWindow.xaml;profile.xaml;RentalReport.xaml;RentingDetails.xaml;SignUpWindow.xaml;SubscriptionManagement.xaml;UsersData.xaml;
+26-262385439
+215-208228992
+EditProfileWindow.xaml;EditUser.xaml;Edit_subscription.xaml;ExtendSubscriptionDialog.xaml;Library_management.xaml;MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;moviesadmin.xaml;moviesuser.xaml;MovieUserWindow.xaml;NavbarAdmin.xaml;NavbarUser.xaml;OrderSummaryWindow.xaml;profile.xaml;RentalReport.xaml;RentingDetails.xaml;SignUpWindow.xaml;SubscriptionManagement.xaml;UsersData.xaml;
 
-False
+True
 

@@ -11,9 +11,13 @@
     <Grid Background="#FFD9ECFF" Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+
+        <!-- Navigation Button -->
+        <local:NavbarAdmin Grid.Row = "0" />
 
         <!-- Title -->
         <TextBlock x:Name="title"
@@ -22,11 +26,11 @@
                    FontWeight="Bold"
                    HorizontalAlignment="Center"
                    Margin="0,10,0,20"
-                   Grid.Row="0" />
+                   Grid.Row="1"/>
 
         <!-- DataGrid -->
         <DataGrid x:Name="tape_data"
-                  Grid.Row="1"
+                  Grid.Row="2"
                   AutoGenerateColumns="False"
                   ItemsSource="{Binding Tapes}"
                   SelectionChanged="DataGrid_SelectionChanged"
@@ -49,7 +53,7 @@
         </DataGrid>
 
         <!-- Buttons -->
-        <StackPanel Grid.Row="2"
+        <StackPanel Grid.Row="3"
                     Orientation="Horizontal"
                     HorizontalAlignment="Center"
                     Margin="0,20,0,10">

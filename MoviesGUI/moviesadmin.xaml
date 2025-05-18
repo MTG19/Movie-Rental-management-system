@@ -1,17 +1,23 @@
 ﻿<Window x:Class="MoviesGUI.MoviesAdmin"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MoviesGUI"
+
         Title="Available Movies" Height="600" Width="800"
         Background="#E6F0FA" WindowState="Maximized">
 
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <!-- Navigation Button -->
+        <local:NavbarAdmin Grid.Row="0"/>
+
         <!-- Top bar with Title in Center and Add Button on Right -->
-        <Grid Grid.Row="0" Margin="0,20">
+        <Grid Grid.Row="1" Margin="0,20">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
@@ -41,7 +47,7 @@
         </Grid>
 
         <!-- Movie List -->
-        <GroupBox Grid.Row="1"
+        <GroupBox Grid.Row="2"
                   Header=""
                   Background="White"
                   Margin="0,10,0,28"

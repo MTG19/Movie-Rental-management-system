@@ -11,6 +11,9 @@
     <Compile Update="MovieUserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="NavbarAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="profile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
