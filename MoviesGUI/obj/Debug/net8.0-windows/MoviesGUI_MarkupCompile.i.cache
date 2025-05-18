@@ -16,5 +16,5 @@ C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\App.xaml
 215-208228992
 EditProfileWindow.xaml;EditUser.xaml;Edit_subscription.xaml;ExtendSubscriptionDialog.xaml;Library_management.xaml;MainWindow.xaml;MovieAdminAdd.xaml;MovieAdminEdit.xaml;MovieAdminViewWindow.xaml;moviesadmin.xaml;moviesuser.xaml;MovieUserWindow.xaml;NavbarAdmin.xaml;NavbarUser.xaml;OrderSummaryWindow.xaml;profile.xaml;RentalReport.xaml;RentingDetails.xaml;SignUpWindow.xaml;SubscriptionManagement.xaml;UsersData.xaml;
 
-True
+False
 
