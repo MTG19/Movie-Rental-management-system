@@ -1,7 +1,11 @@
 ﻿using System;
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Windows;
 using Microsoft.Data.SqlClient;
+=======
+using System.Windows;
+>>>>>>> a4b6671 (movies for admin and user& some other modifications)
 
 namespace MoviesGUI
 {
@@ -19,6 +23,7 @@ namespace MoviesGUI
 
         private void LoadUserProfile()
         {
+<<<<<<< HEAD
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -97,6 +102,17 @@ namespace MoviesGUI
             public string Title { get; set; }
             public DateTime RentedDate { get; set; }
             public DateTime ReturnDate { get; set; }
+=======
+            // Your existing edit button logic (if any)
+        }
+
+        private void ViewMovies_Click(object sender, RoutedEventArgs e)
+        {
+            // Open the moviesadmin window
+            moviesadmin adminWindow = new moviesadmin();
+            adminWindow.Show();
+            this.Close(); // Optional: Close profile window if you want
+>>>>>>> a4b6671 (movies for admin and user& some other modifications)
         }
     }
 }

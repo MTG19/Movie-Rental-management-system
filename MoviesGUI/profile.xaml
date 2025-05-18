@@ -5,23 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
-        Title="Profile" Height="500" Width="800" Background="#f5f5f5">
+        Title="Profile" Height="592" Width="800" Background="#E6F0FA">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
+        <Button Content="View Movies" Width="120" Height="30" Grid.Row="0" HorizontalAlignment="Left" Click="ViewMovies_Click" Margin="0,0,0,10" Cursor="Hand"/>
         <!-- User Info -->
-        <GroupBox Header="User Information" FontWeight="Bold" Padding="10" Margin="0,0,0,10">
+        <GroupBox Header="User Information" FontWeight="Bold" Padding="10" Margin="0,10,0,342" Background="white" Grid.Row="2">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="150"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,10,0">
+                <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,10,0" >
                     <TextBlock Text="Name:" Margin="0,0,0,10"/>
                     <TextBlock Text="Email:" Margin="0,0,0,10"/>
                     <TextBlock Text="Phone:" Margin="0,0,0,10"/>
@@ -36,7 +36,7 @@
         </GroupBox>
 
         <!-- Subscription Info -->
-        <GroupBox Header="Subscription Details" Grid.Row="1" FontWeight="Bold" Padding="10" Margin="0,0,0,10">
+        <GroupBox Header="Subscription Details" Grid.Row="1" FontWeight="Bold" Padding="10" Margin="0,179,0,0" Background="white" Grid.RowSpan="2" Height="117" VerticalAlignment="Top">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="200"/>
@@ -58,8 +58,13 @@
         </GroupBox>
 
         <!-- Rented Movies -->
+<<<<<<< HEAD
         <GroupBox Header="Rented Movies" Grid.Row="2" FontWeight="Bold" Padding="10">
             <ListView x:Name="lstMovies">
+=======
+        <GroupBox Header="Rented Movies" Grid.Row="2" FontWeight="Bold" Padding="10" Margin="0,319,0,0">
+            <ListView ItemsSource="{Binding RentedMovies}" Height="170">
+>>>>>>> a4b6671 (movies for admin and user& some other modifications)
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" Width="200"/>
