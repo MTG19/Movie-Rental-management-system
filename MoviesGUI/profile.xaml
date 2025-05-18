@@ -58,13 +58,9 @@
         </GroupBox>
 
         <!-- Rented Movies -->
-<<<<<<< HEAD
-        <GroupBox Header="Rented Movies" Grid.Row="2" FontWeight="Bold" Padding="10">
-            <ListView x:Name="lstMovies">
-=======
+
         <GroupBox Header="Rented Movies" Grid.Row="2" FontWeight="Bold" Padding="10" Margin="0,319,0,0">
             <ListView ItemsSource="{Binding RentedMovies}" Height="170">
->>>>>>> a4b6671 (movies for admin and user& some other modifications)
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" Width="200"/>

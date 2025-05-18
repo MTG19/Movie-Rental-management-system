@@ -525,3 +525,12 @@ C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\UsersData.g.cs
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\User_Subscription.g.cs
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditProfileWindow.baml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.baml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.baml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.baml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditProfileWindow.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.g.cs

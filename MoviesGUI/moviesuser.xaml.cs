@@ -1,65 +1,60 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using Microsoft.Data.SqlClient;
-
 
 namespace MoviesGUI
 {
-    public partial class moviesuser : Window
+    public partial class MoviesUser : Window
     {
-        private string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
+        public ObservableCollection<Movie> Movies { get; set; } = new ObservableCollection<Movie>();
 
-        public moviesuser()
+        private readonly string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
+
+        public MoviesUser()
         {
-            InitializeComponent();
-            LoadMoviesFromDatabase();
+            DataContext = this;
+            LoadMovies();
         }
 
-        private void LoadMoviesFromDatabase()
+        private void LoadMovies()
         {
-            var movies = new ObservableCollection<Movie>();
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            try
             {
-                connection.Open();
-
-                string query = @"
-                    SELECT m.MovieID, m.Title, g.GenreName
-                    FROM Movie m
-                    JOIN Genre g ON m.GenreID = g.GenreID";
-
-                SqlCommand cmd = new SqlCommand(query, connection);
-                SqlDataReader reader = cmd.ExecuteReader();
-
-                while (reader.Read())
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                    movies.Add(new Movie
+                    connection.Open();
+                    string query = @"
+                        SELECT m.MovieID, m.Title, g.GenreName
+                        FROM Movie m
+                        INNER JOIN Genre g ON m.GenreID = g.GenreID";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        MovieID = Convert.ToInt32(reader["MovieID"]),
-                        Title = reader["Title"].ToString(),
-                        Genre = reader["GenreName"].ToString()
-                    });
+                        Movies.Clear();
+                        while (reader.Read())
+                        {
+                            Movies.Add(new Movie
+                            {
+                                MovieID = reader.GetInt32(0),
+                                Title = reader.GetString(1),
+                                Genre = reader.GetString(2)
+                            });
+                        }
+                    }
                 }
             }
-
-            MoviesItemsControl.ItemsSource = movies;
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading movies: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void ViewDetails_Click(object sender, RoutedEventArgs e)
         {
-            if (sender is Button button && button.DataContext is Movie movie)
+            if (sender is Button btn && btn.DataContext is Movie movie)
             {
                 var detailsWindow = new MovieUserWindow(movie.MovieID);
                 detailsWindow.ShowDialog();
@@ -70,7 +65,7 @@ namespace MoviesGUI
     public class Movie
     {
         public int MovieID { get; set; }
-        public string Title { get; set; }
-        public string Genre { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Genre { get; set; } = string.Empty;
     }
 }

@@ -1666,39 +1666,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\moora\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\Home\\.nuget\\packages\\": {},
->>>>>>> 863f8438889f6a2b4cdf98f62f52155f0752a7f2
+    "C:\\Users\\israa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+      "projectUniqueName": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
       "projectName": "MoviesGUI",
-      "projectPath": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
-      "packagesPath": "C:\\Users\\moora\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moora\\source\\repos\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
-      "projectName": "MoviesGUI",
-      "projectPath": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
-      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
->>>>>>> 863f8438889f6a2b4cdf98f62f52155f0752a7f2
+      "projectPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\MoviesGUI.csproj",
+      "packagesPath": "C:\\Users\\israa\\.nuget\\packages\\",
+      "outputPath": "P:\\Sophomore_SecTerm\\Database\\Movie-Rental-management-system\\MoviesGUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\moora\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 863f8438889f6a2b4cdf98f62f52155f0752a7f2
+        "C:\\Users\\israa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1747,6 +1731,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.300, 9.0.300]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -1758,17 +1748,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-<<<<<<< HEAD
   }
-=======
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Home\\OneDrive\\Desktop\\dataBase\\Movie-Rental-management-system\\MoviesGUI\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
-    }
-  ]
->>>>>>> 863f8438889f6a2b4cdf98f62f52155f0752a7f2
 }
