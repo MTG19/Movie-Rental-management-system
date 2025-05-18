@@ -393,7 +393,6 @@ D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\refint\MoviesGUI
 D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\MoviesGUI.pdb
 D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\MoviesGUI.genruntimeconfig.cache
 D:\VSC projects\Movie_Rental\MoviesGUI\obj\Debug\net8.0-windows\ref\MoviesGUI.dll
-<<<<<<< HEAD
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Edit_subscription.g.cs
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Library_management.g.cs
 C:\Users\asus\source\repos\MTG19\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\SubscriptionManagement.g.cs
@@ -408,7 +407,6 @@ C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\n
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.g.cs
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.g.cs
 C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.baml
-=======
 C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\bin\Debug\net8.0-windows\MoviesGUI.exe
 C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\bin\Debug\net8.0-windows\MoviesGUI.deps.json
 C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\bin\Debug\net8.0-windows\MoviesGUI.runtimeconfig.json
@@ -507,3 +505,23 @@ C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI
 C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.baml
 C:\Users\DELL\OneDrive\Desktop\database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.g.cs
 >>>>>>> a4b6671 (movies for admin and user& some other modifications)
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\MoviesGUI.csproj.AssemblyReference.cache
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditProfileWindow.baml
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.baml
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\MovieAdminAdd.baml
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\MovieAdminEdit.baml
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.baml
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.baml
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditProfileWindow.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\EditUser.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Edit_subscription.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Library_management.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\MovieAdminAdd.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\MovieAdminEdit.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\MovieAdminViewWindow.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesadmin.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\moviesuser.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\SubscriptionManagement.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\UsersData.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\User_Subscription.g.cs
+C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\Window1.g.cs
