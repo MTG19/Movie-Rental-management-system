@@ -1,25 +1,26 @@
 # 🎬 Movie Rental Management System
 
-Welcome to the **Movie Rental Management System** repository!  
-This is a desktop-based application developed using **C#** and **SQL Server** to manage the operations of a movie rental store. The system provides functionality to manage movies, customers, and rentals in a simple and efficient way. 🍿🎞️
+Welcome to the **Movie Rental Management System** 🎥 — a full-stack desktop application built with **C#** and **SQL Server** that handles everything from managing movies and actors to processing user subscriptions and rentals. 
 
 ---
 
-## 💻 Technologies Used
+## 🚀 Features
 
-- 🔹 **C# (.NET Framework)** – for building the desktop user interface and business logic.
-- 🔸 **SQL Server** – for handling data storage and database operations.
+✨ This project includes:
+
+- 🎦 **Movie Management** (Add/Edit/Delete Movies, Genres, Actors, Suppliers)
+- 👤 **User Registration & Authentication** (Admins & Users)
+- 💳 **Subscription Handling** (Track prepaid months & expiry)
+- 🎁 **Rental System** (Rent tapes, return management)
+- 💰 **Payment Tracking** (Date, amount, and method of payment)
+- 🏢 **Supplier & Address Management**
+
+---
+
+## 🛠️ Technologies Used
+
+- **C#** – for the desktop application logic using Windows Forms
+- **SQL Server** – for database management and data persistence
 
 ---
 
-## 📂 Features
-
-✅ Add, update, and delete movie records  
-✅ Add, update, and delete customer records  
-✅ Issue (rent) and return movies  
-✅ View rental history for each customer  
-✅ Calculate rental charges automatically  
-✅ Display most popular movies & top customers  
-✅ Simple and clean Windows Forms UI
-
----
