@@ -19,12 +19,14 @@ namespace MoviesGUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        int id;
         public MainWindow()
         {
             InitializeComponent();
         }
 
         string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
+
 
         private void btnSignIn_Click(object sender, RoutedEventArgs e)
         {
@@ -40,17 +42,16 @@ namespace MoviesGUI
                 if (reader.Read())
                 {
                     string role = reader["Role"].ToString();
-                    int userId = Convert.ToInt32(reader["UserID"]); 
-
                     if (role == "admin")
                     {
-                        AddMovieAdminWindow adminWindow = new AddMovieAdminWindow();
-                        adminWindow.Show();
+                        SubscriptionManagement s = new SubscriptionManagement();
+                        s.Show();
                         this.Close();
                     }
                     else
                     {
-                        profile userWindow = new profile(userId); 
+                        int id = (int) reader["UserID"];
+                        profile userWindow = new profile(id);
                         userWindow.Show();
                         this.Close();
                     }
@@ -58,15 +59,24 @@ namespace MoviesGUI
                 else
                 {
                     MessageBox.Show("Invalid email or password.");
+
                 }
+
             }
         }
 
         private void SignUpIN_Click(object sender, RoutedEventArgs e)
         {
+
+
             SignUpWindow signUpWindow = new SignUpWindow();
             signUpWindow.Show();
             this.Close();
+
+            //MovieAdminViewWindow editWindow = new MovieAdminViewWindow(6);
+            //editWindow.Show();
+            //this.Close();
         }
+
     }
 }

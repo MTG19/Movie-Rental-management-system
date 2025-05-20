@@ -78,7 +78,10 @@ namespace MoviesGUI
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             edit_subscription_btn.IsEnabled = Subscription_data.SelectedItem != null;
+            remove_subscription_btn.IsEnabled = Subscription_data.SelectedItem != null;
         }
+
+
 
         // Button click handler - opens edit window
         private void edit_subscription_btn_Click(object sender, RoutedEventArgs e)
@@ -91,12 +94,67 @@ namespace MoviesGUI
                     WindowStartupLocation = WindowStartupLocation.CenterOwner // Centers over parent
                 };
 
-                editWindow.Show();
-
                 // Disable main window while editing
                 this.IsEnabled = false;
-                editWindow.Closed += (s, args) => this.IsEnabled = true;
+
+                editWindow.Closed += (s, args) =>
+                {
+                    this.IsEnabled = true;
+                    get_all_subscriptions(); // Refresh AFTER window closes
+                };
+
+                editWindow.Show();
             }
+        }
+
+        private void remove_subscription_btn_Click(object sender, RoutedEventArgs e)
+        {
+            // delete the instance 
+            if (Subscription_data.SelectedItem is Subscription selected)
+            {
+                string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
+
+                // Confirm deletion
+                var confirmResult = MessageBox.Show(
+                    $"Are you sure you want to delete subscription with ID = {selected.SubscriptionID}?",
+                    "Confirm Deletion",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Warning);
+
+                if (confirmResult != MessageBoxResult.Yes)
+                    return;
+
+                try
+                {
+                    using (SqlConnection connection = new SqlConnection(connectionString))
+                    using (SqlCommand command = new SqlCommand(
+                        @"DELETE from Subscription where SubscriptionID = @SubscriptionID", connection))
+                    {
+                        command.Parameters.AddWithValue("@SubscriptionID", selected.SubscriptionID);
+
+                        connection.Open();
+                        command.ExecuteNonQuery();
+                    }
+                }
+
+                catch (SqlException ex)
+                {
+                    MessageBox.Show($"Database error: {ex.Message}\n\nPlease check your connection and try again.",
+                                    "Database Error",
+                                    MessageBoxButton.OK,
+                                    MessageBoxImage.Error);
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Unexpected error: {ex.Message}",
+                                "Error",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Error);
+                }
+            }
+            get_all_subscriptions();
+            Subscription_data.Items.Refresh();
         }
     }
 }

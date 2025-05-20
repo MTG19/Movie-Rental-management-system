@@ -5,11 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
-        
-        
-        Title="MainWindow" Height="500" Width="777">
+        Title="MainWindow" Height="500" Width="777" WindowState="Maximized">
     <Grid Background="#D9ECFF" Margin="10">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <!-- Header -->
             <RowDefinition Height="*"/>
@@ -18,6 +17,9 @@
             <!-- Footer -->
         </Grid.RowDefinitions>
 
+        <!-- 🧭 Navigation Bar -->
+        <ContentControl x:Name="NavbarContainer" Height="80" Grid.Row="0" Margin="227,0,244,10"/>
+
         <!-- 🧾 Movie Title Header -->
         <TextBlock x:Name="txtMovieTitle"
                Text="Movie Title Here"
@@ -25,11 +27,11 @@
                FontWeight="Bold"
                HorizontalAlignment="Center"
                Margin="0,10,0,20"
-               Grid.Row="0"
+               Grid.Row="1"
                Foreground="#2B2D42"/>
 
         <!-- 📑 Content Section -->
-        <Grid Margin="0,67,0,81" Grid.RowSpan="3">
+        <Grid Margin="0,67,0,81" Grid.Row="1" Grid.RowSpan="4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="*"/>
@@ -86,7 +88,7 @@
         </Grid>
 
         <!-- 🎬 Footer: Rent Button -->
-        <StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="10">
+        <StackPanel Grid.Row="3" HorizontalAlignment="Center" Margin="10">
             <Button x:Name="btnRent"
                 Content="Rent Now"
                 Width="150"

@@ -5,16 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
-        Title="Profile" Height="500" Width="800" Background="#f5f5f5">
+        Title="Profile" Height="592" Width="800" Background="#E6F0FA"  WindowState="Maximized">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        
+        <!-- Navigation Button -->
+        <ContentControl x:Name="NavbarContainer" Height="80" Grid.Row="0" Margin="227,0,244,10"/>
 
         <!-- User Info -->
-        <GroupBox Header="User Information" FontWeight="Bold" Padding="10" Margin="0,0,0,10">
+        <GroupBox Header="User Information" FontWeight="Bold" Padding="10" 
+                 Grid.Row="1" Background="White" Margin="0,0,0,10">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="150"/>
@@ -36,11 +41,13 @@
         </GroupBox>
 
         <!-- Subscription Info -->
-        <GroupBox Header="Subscription Details" Grid.Row="1" FontWeight="Bold" Padding="10" Margin="0,0,0,10">
+        <GroupBox Header="Subscription Details" FontWeight="Bold" Padding="10" 
+                 Grid.Row="2" Background="White" Margin="0,0,0,10">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="200"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,0,10,0">
@@ -54,17 +61,23 @@
                     <TextBlock x:Name="txtEndDate" Margin="0,0,0,10"/>
                     <TextBlock x:Name="txtMonths"/>
                 </StackPanel>
+
+                <Button x:Name="ExtendButton" Grid.Column="2" Content="Extend" 
+                       Click="ExtendSubscription_Click"
+                       Background="#FF3B82F6" FontWeight="Bold"
+                       Width="120" Height="30" Margin="10,0,0,0"
+                       VerticalAlignment="Center"/>
             </Grid>
         </GroupBox>
 
         <!-- Rented Movies -->
-        <GroupBox Header="Rented Movies" Grid.Row="2" FontWeight="Bold" Padding="10">
-            <ListView x:Name="lstMovies">
+        <GroupBox Header="Rented Movies" FontWeight="Bold" Padding="10" Grid.Row="3">
+            <ListView x:Name="lstMovies" Height="170">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" Width="200"/>
-                        <GridViewColumn Header="Rented Date" DisplayMemberBinding="{Binding RentedDate}" Width="120"/>
-                        <GridViewColumn Header="Return Date" DisplayMemberBinding="{Binding ReturnDate}" Width="120"/>
+                        <GridViewColumn Header="Rented Date" DisplayMemberBinding="{Binding RentedDate, StringFormat=d}" Width="120"/>
+                        <GridViewColumn Header="Return Date" DisplayMemberBinding="{Binding ReturnDate, StringFormat=d}" Width="120"/>
                     </GridView>
                 </ListView.View>
             </ListView>

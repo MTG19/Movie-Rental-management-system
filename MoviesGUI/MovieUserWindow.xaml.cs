@@ -24,16 +24,21 @@ namespace MoviesGUI
     {
         private int _movieId;
         string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
+        private int current_user_id;
 
-        public MovieUserWindow(int movieId)
+        public MovieUserWindow(int movieId, int user_id)
         {
             InitializeComponent();
             _movieId = movieId;
             LoadMovieData(_movieId);
+            this.current_user_id = user_id;
         }
 
         private void LoadMovieData(int movieId)
         {
+            NavbarUser nav = new NavbarUser();
+            NavbarContainer.Content = nav;
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -91,7 +96,7 @@ namespace MoviesGUI
 
         private void btnRent_Click(object sender, RoutedEventArgs e)
         {
-            RentingDetails Renting_Details = new RentingDetails(_movieId);  
+            RentingDetails Renting_Details = new RentingDetails(_movieId, current_user_id);  
             Renting_Details.Show();
             this.Close();
         }

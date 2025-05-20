@@ -6,25 +6,29 @@
         xmlns:local="clr-namespace:MoviesGUI"
         mc:Ignorable="d"
         Title="Subscription Management" Height="450" Width="800"
-        Background="#FFD9ECFF">
+        Background="#FFD9ECFF" WindowState="Maximized">
 
     <Grid Margin="20">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
+        <!-- Navbar at the top -->
+        <local:NavbarAdmin DockPanel.Dock="Top" Grid.Row="0" />
+
         <!-- Header -->
         <TextBlock Text="All Subscriptions Info"
                    FontSize="20"
                    FontWeight="Bold"
-                   HorizontalAlignment="Center"
+                   HorizontalAlignment="Center" Grid.Row="1"
                    Margin="0,10,0,20" />
 
         <!-- DataGrid in GroupBox -->
         <GroupBox Header="Subscriptions"
-                  Grid.Row="1"
+                  Grid.Row="2"
                   HorizontalAlignment="Stretch"
                   VerticalAlignment="Stretch"
                   FontSize="10"
@@ -51,18 +55,21 @@
             </Grid>
         </GroupBox>
 
-        <StackPanel Grid.Row="2"
+        <StackPanel Grid.Row="3"
                     Orientation="Horizontal"
                     HorizontalAlignment="Center"
                     Margin="0,20,0,10">
-                    
+
             <Button x:Name="edit_subscription_btn" Content="Edit Subscription" Background="#FF3B82F6" Foreground="White" 
                 FontWeight="Bold" Padding="10,6" Margin="0" 
                 HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" 
                 IsEnabled="False" Click="edit_subscription_btn_Click"/>
-                
-            <Button x:Name="remove_subscription_btn" Content="remove Subscription" Background="#FF3B82F6" Foreground="White" FontWeight="Bold" Padding="10,6" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35"/>
-                    <!-- IsEnabled="{Binding SelectedTape, Converter={StaticResource NullToBoolConverter}}" -->
+
+            <Button x:Name="remove_subscription_btn" Content="remove Subscription" Foreground="White"
+                 FontWeight="Bold" Padding="10,6" Margin="10,0,0,0"
+                  HorizontalAlignment="Center" VerticalAlignment="Center" Height="35"
+                  IsEnabled="False" Click="remove_subscription_btn_Click" Background="Red"/>
+            <!-- IsEnabled="{Binding SelectedTape, Converter={StaticResource NullToBoolConverter}}" -->
         </StackPanel>
     </Grid>
 </Window>

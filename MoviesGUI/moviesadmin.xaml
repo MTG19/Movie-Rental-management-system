@@ -1,0 +1,85 @@
+﻿<Window x:Class="MoviesGUI.MoviesAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MoviesGUI"
+
+        Title="Available Movies" Height="600" Width="800"
+        Background="#E6F0FA" WindowState="Maximized">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Navigation Button -->
+        <local:NavbarAdmin Grid.Row="0"/>
+
+        <!-- Top bar with Title in Center and Add Button on Right -->
+        <Grid Grid.Row="1" Margin="0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Title in center column -->
+            <TextBlock Grid.Column="1"
+                       Text="Our Movies"
+                       FontSize="30"
+                       FontWeight="Bold"
+                       Foreground="#2B2D42"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center" />
+
+            <!-- Button in right column -->
+            <Button Grid.Column="2"
+                    Content="ADD"
+                    Height="40"
+                    Width="100"
+                    Background="#FF3B82F6"
+                    Foreground="White"
+                    Click="AddButton_Click"
+                    Cursor="Hand"
+                    HorizontalAlignment="Right"
+                    Margin="0,0,10,0"/>
+        </Grid>
+
+        <!-- Movie List -->
+        <GroupBox Grid.Row="2"
+                  Header=""
+                  Background="White"
+                  Margin="0,10,0,28"
+                  Padding="20"
+                  BorderBrush="#CCCCCC"
+                  BorderThickness="1">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <ItemsControl x:Name="MoviesItemsControl">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="#F8F8F8"
+                                    BorderBrush="#DDD"
+                                    BorderThickness="1"
+                                    CornerRadius="8"
+                                    Padding="15"
+                                    Margin="10">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="Bold" Foreground="#222"/>
+                                    <TextBlock Text="{Binding Genre}" FontSize="14" Foreground="#666" Margin="0,4,0,0"/>
+                                    <Button Content="View Details" Width="120" Margin="0,10,0,0"
+                                            Click="ViewDetails_Click" Cursor="Hand"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </GroupBox>
+    </Grid>
+</Window>

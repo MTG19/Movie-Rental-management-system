@@ -9,12 +9,16 @@ namespace MoviesGUI
     {
         string connectionString = @"Server=localhost;Database=MovieRental;Trusted_Connection=True;TrustServerCertificate=True;";
         private int userId;
+        // Add this field to the profile class
 
         public profile(int userId)
         {
             InitializeComponent();
             this.userId = userId;
+            Session.UserId = userId; 
             LoadUserProfile();
+            NavbarUser navbar = new NavbarUser(); 
+            NavbarContainer.Content = navbar;
         }
 
         private void LoadUserProfile()
@@ -61,10 +65,9 @@ namespace MoviesGUI
                     // Load rented movies
                     string moviesQuery = @"
                         SELECT m.Title, r.rentingDate, r.returnDate
-                        FROM rentingOrder r
-                        JOIN rentingDetail d ON r.RentalID = d.RentalID
-                        JOIN Library l ON d.TapeID = l.TapeID
-                        JOIN Movie m ON l.MovieID = m.MovieID
+                        FROM rentingOrder as r
+                        JOIN rentingDetail as d ON r.RentalID = d.RentalID
+                        JOIN movie as m ON d.MovieID = m.MovieID
                         WHERE r.UserID = @UserID";
 
                     SqlCommand movieCmd = new SqlCommand(moviesQuery, connection);
@@ -97,6 +100,73 @@ namespace MoviesGUI
             public string Title { get; set; }
             public DateTime RentedDate { get; set; }
             public DateTime ReturnDate { get; set; }
+
+        }
+
+        private void ViewMovies_Click(object sender, RoutedEventArgs e)
+        {
+            // Open the moviesadmin window
+            MoviesUser userWindow = new MoviesUser(userId);
+            userWindow.Show();
+            this.Close(); // Optional: Close profile window if you want
+
+        }
+
+        private void ExtendSubscription_Click(object sender, RoutedEventArgs e)
+        {
+            // Ask user how many months they want to extend
+            var extendDialog = new ExtendSubscriptionDialog();
+            if (extendDialog.ShowDialog() == true)
+            {
+                int monthsToExtend = extendDialog.MonthsToExtend;
+
+                try
+                {
+                    using (SqlConnection connection = new SqlConnection(connectionString))
+                    using (SqlCommand command = new SqlCommand(
+                        @"UPDATE Subscription 
+                          SET EndDate = DATEADD(MONTH, @MonthsToExtend, EndDate),
+                              PrepaidMonths = PrepaidMonths + @MonthsToExtend
+                          WHERE UserID = @User_id", connection))
+                    {
+                        command.Parameters.AddWithValue("@MonthsToExtend", monthsToExtend);
+                        command.Parameters.AddWithValue("@User_id", userId);
+
+                        connection.Open();
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show($"Subscription extended by {monthsToExtend} months!",
+                                          "Success",
+                                          MessageBoxButton.OK,
+                                          MessageBoxImage.Information);
+                            LoadUserProfile(); // Refresh the displayed dates
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to extend subscription. User not found.",
+                                          "Error",
+                                          MessageBoxButton.OK,
+                                          MessageBoxImage.Error);
+                        }
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show($"Database error: {ex.Message}",
+                                  "Database Error",
+                                  MessageBoxButton.OK,
+                                  MessageBoxImage.Error);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Unexpected error: {ex.Message}",
+                                  "Error",
+                                  MessageBoxButton.OK,
+                                  MessageBoxImage.Error);
+                }
+            }
         }
     }
 }
