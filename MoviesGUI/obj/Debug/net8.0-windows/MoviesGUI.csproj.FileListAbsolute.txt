@@ -633,3 +633,6 @@ C:\Users\moora\Source\Repos\Movie-Rental-management-system\MoviesGUI\obj\Debug\n
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarAdmin.g.cs
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Home\OneDrive\Desktop\dataBase\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarAdmin.baml
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarAdmin.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+P:\Sophomore_SecTerm\Database\Movie-Rental-management-system\MoviesGUI\obj\Debug\net8.0-windows\NavbarAdmin.baml

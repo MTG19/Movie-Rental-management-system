@@ -50,7 +50,7 @@ namespace MoviesGUI
         {
             if (sender is Button button && button.DataContext is Movie movie)
             {
-                MovieUserWindow detailsWindow = new MovieUserWindow(movie.MovieID);
+                MovieAdminViewWindow detailsWindow = new MovieAdminViewWindow(movie.MovieID);
                 detailsWindow.ShowDialog();
             }
         }
