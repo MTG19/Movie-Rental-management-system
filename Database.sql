@@ -117,3 +117,11 @@ VALUES (1, 1, '2025-05-06', 3, '2025-08-06');
 
 select*from [Users];
 select*from Subscription;
+
+ALTER TABLE rentingDetail
+DROP CONSTRAINT FK__rentingDe__Movie__5812160E;
+
+ALTER TABLE rentingDetail
+ADD CONSTRAINT FK_rentingDetail_Movie
+FOREIGN KEY (MovieID) REFERENCES Movie(MovieID)
+ON DELETE CASCADE;
