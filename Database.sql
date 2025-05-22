@@ -1,7 +1,7 @@
 CREATE Database MovieRental
 
-use [MovieRental];
 
+use [MovieRental];
 GO
 
 CREATE TABLE Genre (
@@ -9,13 +9,6 @@ CREATE TABLE Genre (
     GenreName VARCHAR(50) NOT NULL
 );
 
-CREATE TABLE Address (
-    AddressID INT PRIMARY KEY Identity(1,1),
-    Street VARCHAR(255),
-    City VARCHAR(100),
-    PostalCode VARCHAR(20),
-    Country VARCHAR(100)
-);
 
 CREATE TABLE Supplier (
     SupplierID INT PRIMARY KEY Identity(1,1),
@@ -25,6 +18,16 @@ CREATE TABLE Supplier (
     AddressID INT,
     FOREIGN KEY (AddressID) REFERENCES Address(AddressID)
 );
+
+
+CREATE TABLE Address (
+    AddressID INT PRIMARY KEY Identity(1,1),
+    Street VARCHAR(255),
+    City VARCHAR(100),
+    PostalCode VARCHAR(20),
+    Country VARCHAR(100)
+);
+
 
 CREATE TABLE Actor (
     ActorID INT PRIMARY KEY Identity(1,1),
@@ -80,7 +83,7 @@ CREATE TABLE rentingOrder (
     UserID INT,
     FOREIGN KEY (UserID) REFERENCES Users(UserID)
 );
-
+ 
 CREATE TABLE payment(
 	PaymentNo int primary key Identity(1,1),
 	RentalId int foreign key REFERENCES rentingOrder(RentalID),
@@ -88,13 +91,7 @@ CREATE TABLE payment(
 	PaymentDate Date,
 	Method VARCHAR(MAX)
 );
-
--- CREATE TABLE library (
--- 	  tapeID int primary key,
--- 	  movieID int foreign key REFERENCES movie(movieID)
--- );
-
-
+ 
 CREATE TABLE rentingDetail (
     RentalID INT,
     MovieID INT,

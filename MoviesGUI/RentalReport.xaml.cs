@@ -42,10 +42,9 @@ namespace MoviesGUI
                 JOIN rentingOrder ro ON u.UserID = ro.UserID
                 JOIN rentingDetail rd ON ro.RentalID = rd.RentalID
                 JOIN Movie m ON rd.MovieID = m.MovieID
-                LEFT JOIN payment p ON ro.RentalID = p.RentalId
+                JOIN payment p ON ro.RentalID = p.RentalId
                 ORDER BY u.Name, ro.rentingDate;"; 
                 
-
             try
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))

@@ -44,7 +44,7 @@ namespace MoviesGUI
                             Name = reader["Name"].ToString(),
                             Email = reader["Email"].ToString(),
                             Phone = reader["Phone"].ToString(),
-                            Address = "N/A" // Placeholder (you can join with Address table later if needed)
+                            //Address = "N/A" // the user has no address 
                         });
                     }
 

@@ -37,17 +37,7 @@
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="1.5*" SortDirection="Ascending"/>
                 <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="1.5*" SortDirection="Ascending"/>
                 <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="1.5*" SortDirection="Ascending"/>
-                <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="1.5*" SortDirection="Ascending"/>
-                <DataGridTemplateColumn Header="Actions" Width="*" SortDirection="Ascending">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                                <Button Content="Edit" Margin="2"/>
-                                <Button Content="Delete" Margin="2"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
+                <!-- <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="1.5*" SortDirection="Ascending"/> -->
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

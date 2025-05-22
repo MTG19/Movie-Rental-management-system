@@ -7,10 +7,11 @@ namespace MoviesGUI
 {
     public partial class OrderSummaryWindow : Window
     {
-        public OrderSummaryWindow(ObservableCollection<RentingOrderItem> rentOrders, string paymentMethod)
+        int current_user_id;
+        public OrderSummaryWindow(ObservableCollection<RentingOrderItem> rentOrders, string paymentMethod, int user_id)
         {
             InitializeComponent();
-
+            current_user_id = user_id;
             NavbarUser nav = new NavbarUser();
             NavbarContainer.Content = nav;
 
@@ -22,6 +23,8 @@ namespace MoviesGUI
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
+            profile p = new profile(current_user_id);
+            p.Show();
             this.Close();
         }
 

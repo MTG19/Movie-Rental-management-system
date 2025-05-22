@@ -158,9 +158,23 @@ namespace MoviesGUI
 
                     cmd.ExecuteNonQuery();
                 }
+
+                string payment_query = @"INSERT INTO payment(RentalID, amount, PaymentDate, Method)
+                                       VALUES(@RentalID, @amount, GetDate(), @Method)";
+
+                double totalPrice = 0;
+                foreach (var item in RentOrders)
+                    totalPrice += item.Total;
+
+                SqlCommand payment_cmd = new SqlCommand(payment_query, conn);
+                payment_cmd.Parameters.AddWithValue("@RentalID", RentalID);
+                payment_cmd.Parameters.AddWithValue("@amount", totalPrice);
+                payment_cmd.Parameters.AddWithValue("@Method", method);
+
+                payment_cmd.ExecuteNonQuery();
             }
 
-            OrderSummaryWindow summaryWindow = new OrderSummaryWindow(RentOrders, method);
+            OrderSummaryWindow summaryWindow = new OrderSummaryWindow(RentOrders, method, current_user_id);
             summaryWindow.Show();
             this.Close();
         }
